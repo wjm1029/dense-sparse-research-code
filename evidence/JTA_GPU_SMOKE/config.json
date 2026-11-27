@@ -1,0 +1,56 @@
+{
+  "args": {
+    "project_root": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense",
+    "cache": "../jta_research_code_smoke_20261127/cache_v2",
+    "output": "../jta_research_code_smoke_20261127/train_smoke",
+    "max_steps": 2,
+    "save_every": 2,
+    "eval_every": 2,
+    "eval_clips": 1,
+    "seed": 20261127,
+    "warmup": 100,
+    "queries": 128,
+    "empty_fraction": 0.1,
+    "overfit_id": "train_seq_85_f0244_t0",
+    "resume": "../jta_research_code_smoke_20261127/train_smoke/trainer_latest.pt",
+    "loss_config": null,
+    "stop_file": null
+  },
+  "contract": {
+    "schema": "jta_multi_person_bidirectional_train_v1",
+    "attention": "bidirectional",
+    "initialization": "official Wan, fresh LoRA/router/head; no old Sparse weights",
+    "world_size": 1,
+    "seed": 20261127,
+    "queries": 128,
+    "max_steps": 2,
+    "warmup": 100,
+    "empty_fraction": 0.1,
+    "overfit_id": "train_seq_85_f0244_t0",
+    "loss": {
+      "xy": 5.0,
+      "xyz": 1.0,
+      "presence": 1.0,
+      "joint_state": 0.2,
+      "router": 0.001,
+      "occluded_joint_weight": 0.25,
+      "unmatched_presence_weight": 0.1,
+      "matching_xy": 5.0,
+      "matching_xyz": 1.0,
+      "matching_presence": 2.0
+    },
+    "cache_config_sha256": "a1b540abbe308f129c0816965be4d4aff2f959888b1907ef5b10b82c7d552d0a",
+    "cache_manifest_sha256": "33e8b110fc06e7221c62a75ee066680f6c2d536119f49ee4f8398dab3acaf9f1",
+    "code_sha256": {
+      "tools/jta_train.py": "0a04a7288f4cf921b285d75f968e3d1886d3a49e08093039b7200f7ae7334ef3",
+      "tools/jta_cache.py": "0229193a745b90614cc3dc236d2ff9d7217931584764715f60e1f20eacd1a412",
+      "core/task_gating.py": "f7c16172e6133a75ef0ce4b0acf052a6c6fdbb64ca0072517cc5dbdb3fc674df",
+      "core/sparse_model.py": "3b862b85ae5dad16faba0c1eeafbc1eb3f1b0b13dd0661292e2ebc6d9f3bb4e8",
+      "core/sparse_decode.py": "1b640d1cb4f75b70c1cc47d8289f735b58924e83f44864e86b605353e70b2e11",
+      "core/sparse_loss.py": "a89a20fdbc1542ab90b7e017a0e9b422290ef3e5ad59fae1d09697572ca9d7dd",
+      "core/jta_tiles.py": "d940f9bdc8d072eb11521118bbbcbc9f676b25202dadf72d8a290320b7b91734"
+    }
+  },
+  "train_clips": 3,
+  "val_clips": 1
+}

@@ -1,0 +1,44 @@
+{
+  "args": {
+    "index_dir": "/pfs/mayuema/dense/wan/cache/wan22_sparse_coordinates_v1_20261011",
+    "output_dir": "/pfs/mayuema/dense/wan/outputs/wan22_sparse_prompt_hyperlora_full_4gpu_25k_20261012",
+    "model_dir": "/pfs/mayuema/dense/wan/Wan2.2-TI2V-5B",
+    "max_steps": 25000,
+    "overfit_clip": null,
+    "save_steps": 500,
+    "eval_steps": 1000,
+    "eval_samples": 372,
+    "max_hours": 0.0,
+    "seed": 42,
+    "resume": null,
+    "stop_file": "/tmp/wan22_sparse_prompt_full25k_STOP_REQUESTED_20261012"
+  },
+  "contract": {
+    "schema": "wan22_sparse_prompt_hyperlora_v1",
+    "model_dir": "/pfs/mayuema/dense/wan/Wan2.2-TI2V-5B",
+    "index_hash": "c0c00d423771689c88f2a857828163d26ae59dfbfca2bce42dc8b1e9578bc785",
+    "script_hash": "974c8ba33bca6d4d8b54180b971411290565e079be84fd7beae676641503e65e",
+    "base_sparse_hash": "484dc231ae98333030669700bad04d8429d1c838c8cf4a5c70cca3cdec5e3d2e",
+    "sparse_router_hash": "7d304a129e7e4e5c21c833cdb4352e199e49b308faaf957b96cacabf0831190d",
+    "dense_router_hash": "bd9e5eeac629230de9361260df2b177b80bf789016c41f38be5d078405610c75",
+    "pipeline_hash": "3553d248f3e21e2b43e1837da9f7f82eb9bb3c8703864a0bb0661a88a36728ca",
+    "dit_hash": "6c58727cd579dd359eecd918ac67cad887e91ab9556abff8a5882e8205ea2cdb",
+    "prompts": [
+      "output: 2D keypoints",
+      "output: 3D keypoints"
+    ],
+    "world_size": 4,
+    "seed": 42,
+    "overfit_clip": null,
+    "train_clips": 6129,
+    "val_clips": 372,
+    "rank": 32,
+    "router_hidden": 512,
+    "router_lr": 1e-05,
+    "lora_head_lr": 0.0001,
+    "router_identity_weight": 0.001,
+    "warmup_steps": 100,
+    "attention": "bidirectional",
+    "init": "official base, zero-delta new LoRA, new heads and identity-initialized task router; no old checkpoint"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "status": "native-resolution data adapter and pilot bundles implemented; new multi-person model and training not launched",
+  "user_requirements": {
+    "prediction": "all observable people in each crop",
+    "resize": false,
+    "old_sparse_checkpoints": "must not load bidirectional or OPSD checkpoints",
+    "new_training_initialization": "official Wan pretrained backbone; fresh task adapters and multi-person heads, as previously stated"
+  },
+  "data": {
+    "source": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/dataset/JTA",
+    "index": "native_tile_index_v2",
+    "invalid_index_do_not_use": "native_tile_index_v1 (incomplete; incorrectly assumed annotation end equals video end)",
+    "tile_width_height": [
+      832,
+      480
+    ],
+    "x_origins": [
+      0,
+      544,
+      1088
+    ],
+    "y_origins": [
+      0,
+      300,
+      600
+    ],
+    "horizontal_vertical_overlap": [
+      288,
+      180
+    ],
+    "temporal_window": "81 frames at original 30 fps, fixed origin within clip",
+    "split_policy": "official sequence-level train/val split; test not used to tune preprocessing",
+    "person_filter": "at least one visible in-crop joint in a frame; no minimum height filter",
+    "loss_masks": "out-of-crop/padded joints excluded; visible and occluded joints distinguishable",
+    "training_sampling_proposal": "90 percent positive crop windows, 10 percent empty crop windows; all windows retained in index",
+    "partial_people": "retained with joint masks; overlap reduces cutting but does not guarantee every person fits entirely in a tile",
+    "calibration": "crop intrinsics stored, no resizing; do not apply Dense normal sign flips",
+    "pilot": "native_tile_pilot_v1: 5-track, 33-track and empty training clips, lossless RGB arrays and aligned targets"
+  },
+  "next_model_implementation": {
+    "attention": "full bidirectional; no OPSD/causal rollout",
+    "target_schema": "JTA native 22 joints, 2D pixels normalized to crop and root-relative 3D meters",
+    "head": "multi-person queries, per-frame presence and per-person joint coordinates with visibility",
+    "assignment": "match a predicted slot to one labeled track across a clip; annotation IDs used for supervision only",
+    "capacity": {
+      "person_slots": 128,
+      "observed_train_max_tracks": 70,
+      "observed_val_max_tracks": 111,
+      "overflow": "explicit error, never truncate; test distribution not audited"
+    },
+    "intrinsics": "carry crop intrinsics into geometry conditioning, not only label files",
+    "sanity_sequence": "empty and low-count crop checks, single-clip overfit, crowded overfit, cross-sequence validation, full training"
+  },
+  "inference_implementation_pending": {
+    "input": "same fixed nine native-resolution tiles without GT person filtering",
+    "merge": "map 2D back to original pixels and merge duplicate skeletons using joint agreement and confidence",
+    "tracking": "clip-internal IDs are not global; cross-tile and cross-clip association must be implemented explicitly",
+    "cost": "multiple crop forwards per original clip; measure throughput after implementation"
+  },
+  "index_result": {
+    "train_videos": 256,
+    "val_videos": 128,
+    "train_positive_windows": 24426,
+    "train_empty_windows": 3222,
+    "val_positive_windows": 12301,
+    "val_empty_windows": 1523,
+    "max_people_per_frame": 72,
+    "test_used": false,
+    "rgb_vae_cache_built": false,
+    "new_model_implemented": false,
+    "training_launched": false
+  }
+}

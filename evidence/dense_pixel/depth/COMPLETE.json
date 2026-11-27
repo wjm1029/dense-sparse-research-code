@@ -1,0 +1,82 @@
+{
+  "step": 30000,
+  "validation": {
+    "detailer": {
+      "mae": 0.05120324991392285,
+      "rmse": 0.09445080551203718,
+      "gradient_mae": 0.00551097583486123,
+      "temporal_delta_error": 0.007130204305429472,
+      "gt_edge_region_mae": 0.1675951186358259,
+      "patch_seam32": -0.12770713910753473,
+      "patch_border_gradient_mae": 0.004085590235700601
+    },
+    "official_vae": {
+      "mae": 0.053966409547693946,
+      "rmse": 0.07597414536003987,
+      "gradient_mae": 0.004867993346729389,
+      "temporal_delta_error": 0.00766704789404705,
+      "gt_edge_region_mae": 0.1703424983145146,
+      "patch_seam32": -0.04663280907892779,
+      "patch_border_gradient_mae": 0.004997788674689913
+    }
+  },
+  "test": {
+    "detailer": {
+      "mae": 0.050887222352364515,
+      "rmse": 0.09501410196604496,
+      "gradient_mae": 0.006480078887680818,
+      "temporal_delta_error": 0.008761110039321101,
+      "gt_edge_region_mae": 0.13848926902070421,
+      "patch_seam32": -0.14546023245758502,
+      "patch_border_gradient_mae": 0.005070901421964516
+    },
+    "official_vae": {
+      "mae": 0.05155757831255342,
+      "rmse": 0.07559996083252242,
+      "gradient_mae": 0.005966413516507755,
+      "temporal_delta_error": 0.009170716753992749,
+      "gt_edge_region_mae": 0.14060771163165442,
+      "patch_seam32": -0.059943221549003244,
+      "patch_border_gradient_mae": 0.006119639907850866
+    }
+  },
+  "request": {
+    "stage": "head warmup; frozen Dense6 native DiT",
+    "task": "depth",
+    "steps": 30000,
+    "world_size": 4,
+    "train_clips": 4696,
+    "validation_clips": 445,
+    "test_clips": 471,
+    "architecture": "SiLU -> causal3x1x1 3072->3072 -> five (ConvTranspose1x2x2 + causal3x3x3 + SiLU) -> causal3x1x1 scalar",
+    "widths": [
+      1024,
+      512,
+      256,
+      128,
+      64
+    ],
+    "parameters": 81414209,
+    "temporal_adaptation": "Native token0 maps frame0; token1..20 each maps4raw frames, with learned phase embedding before causal detailer",
+    "input": "Existing BF16 last-layer features after native fixed-t=0 head normalization/modulation; not raw pre-head s+e_t",
+    "differences_from_paper": [
+      "Frozen backbone during warmup",
+      "Native RGB VAE encoder and latent AR history retained",
+      "Temporal expansion for native compressed tokens",
+      "Scalar depth instead of RGB; LPIPS on replicated depth",
+      "Deterministic t=0 MSE, no flow/noise reweighting",
+      "Five levels for spatial patch32; widths adapted to D3072"
+    ],
+    "loss": "pixel MSE +0.2 temporal Charbonnier(delta=0.001) +0.2 VGG LPIPS on4frames",
+    "optimizer": "AdamW lr1e-4 beta0.9/0.95 wd0 clip1 EMA0.999; constant LR as paper",
+    "sampling": "4 GPUs x2 crops/update; each crop8targetframes plus up to14contextframes,256x256->192x192 core; four-case CPU bank, refresh1 per2steps perGPU; disjoint exhaustive rank partitions",
+    "precision": "BF16 conv autocast, FP32 final scalar output/loss/master weights",
+    "evaluation": "16 validation clips every2000; full445 validation/full471 test at fixed final step, no test checkpoint selection",
+    "manifest_sha256": "d7a2ca221b7d502a9c67c0ff4a4d16af1a2b8588b6ded1a5121ffd3123a3b1ba",
+    "code_sha256": {
+      "train_pixvid_v12.py": "54ed3d2619898d9ba985be05f8cc3a56681cda36f6846bb81c32901902e109f0",
+      "pixvid_detailer_v12.py": "fc73cf80cdbde0ae1ca1b0a4ed6703cfadef6fc39fd42aa05f2227751d7ab08b"
+    }
+  },
+  "time": 1795421430.533081
+}

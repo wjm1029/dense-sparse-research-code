@@ -1,0 +1,73 @@
+./xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/experiments/dense_sparse_research_code_20261127/core/test_core.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  self.assertEqual(float(terms['latent']),0);self.assertLessEqual(float(terms['dispersion']),0)
+......
+----------------------------------------------------------------------
+Ran 7 tests in 1.084s
+
+OK
+.{"event": "cache_complete", "records": 2, "path": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/runtime/wan22_deploy_20261122/tmp/tmp0td_ds2l/manifest.jsonl"}
+...
+----------------------------------------------------------------------
+Ran 4 tests in 0.578s
+
+OK
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+{
+  "scope": "CPU numerical/gradient/integrity tests; not full historical training reproduction",
+  "passed": true,
+  "unit_test_count": 33,
+  "checks": [
+    {
+      "module": "test_core",
+      "tests": 7,
+      "passed": true
+    },
+    {
+      "module": "test_workflow",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_opsd_prefix_cache",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_dense6_sampler",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_causal_attention",
+      "tests": 6,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_ar_teacher_forcing",
+      "tests": 6,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_ar_self_forcing",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "module": "test_wan22_opsd_bounded_causal_attention",
+      "tests": 1,
+      "passed": true
+    },
+    {
+      "module": "two_process_dispersion_gradient",
+      "passed": true,
+      "output": "[Gloo] Rank [Gloo] Rank 10 is connected to  is connected to 11 peer ranks.  peer ranks. Expected number of connected peer ranks is : Expected number of connected peer ranks is : 11\n\nPASS: global dispersion gradient, diagonal/no-pair zero, same-task distinct-clip sampler\n"
+    }
+  ],
+  "all_stage_sources_parsed": true,
+  "elapsed_seconds": 30.258348934352398
+}

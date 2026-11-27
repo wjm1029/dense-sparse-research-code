@@ -1,0 +1,210 @@
+{
+  "checks": {
+    "grid_coverage_min": 1,
+    "grid_coverage_max": 4,
+    "coordinate_roundtrip": true,
+    "forty_pixel_height_preserved": true,
+    "crop_intrinsics": true,
+    "padding_and_visibility": true,
+    "overflow_rejected": true
+  },
+  "previews": [
+    {
+      "sequence": 85,
+      "frame": 301,
+      "visible_joints": 431,
+      "all_visible_joints_covered": true,
+      "tiles": [
+        {
+          "tile": 0,
+          "origin": [
+            0,
+            0
+          ],
+          "visible_people": 4,
+          "clip_tracks": 5,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 1,
+          "origin": [
+            544,
+            0
+          ],
+          "visible_people": 3,
+          "clip_tracks": 3,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 2,
+          "origin": [
+            1088,
+            0
+          ],
+          "visible_people": 1,
+          "clip_tracks": 1,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 3,
+          "origin": [
+            0,
+            300
+          ],
+          "visible_people": 16,
+          "clip_tracks": 20,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 4,
+          "origin": [
+            544,
+            300
+          ],
+          "visible_people": 22,
+          "clip_tracks": 23,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 5,
+          "origin": [
+            1088,
+            300
+          ],
+          "visible_people": 2,
+          "clip_tracks": 3,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 6,
+          "origin": [
+            0,
+            600
+          ],
+          "visible_people": 3,
+          "clip_tracks": 4,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 7,
+          "origin": [
+            544,
+            600
+          ],
+          "visible_people": 1,
+          "clip_tracks": 2,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 8,
+          "origin": [
+            1088,
+            600
+          ],
+          "visible_people": 0,
+          "clip_tracks": 1,
+          "raw_crop_exact": true
+        }
+      ]
+    },
+    {
+      "sequence": 170,
+      "frame": 301,
+      "visible_joints": 514,
+      "all_visible_joints_covered": true,
+      "tiles": [
+        {
+          "tile": 0,
+          "origin": [
+            0,
+            0
+          ],
+          "visible_people": 0,
+          "clip_tracks": 0,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 1,
+          "origin": [
+            544,
+            0
+          ],
+          "visible_people": 0,
+          "clip_tracks": 0,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 2,
+          "origin": [
+            1088,
+            0
+          ],
+          "visible_people": 0,
+          "clip_tracks": 0,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 3,
+          "origin": [
+            0,
+            300
+          ],
+          "visible_people": 12,
+          "clip_tracks": 17,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 4,
+          "origin": [
+            544,
+            300
+          ],
+          "visible_people": 31,
+          "clip_tracks": 33,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 5,
+          "origin": [
+            1088,
+            300
+          ],
+          "visible_people": 6,
+          "clip_tracks": 7,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 6,
+          "origin": [
+            0,
+            600
+          ],
+          "visible_people": 10,
+          "clip_tracks": 17,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 7,
+          "origin": [
+            544,
+            600
+          ],
+          "visible_people": 31,
+          "clip_tracks": 35,
+          "raw_crop_exact": true
+        },
+        {
+          "tile": 8,
+          "origin": [
+            1088,
+            600
+          ],
+          "visible_people": 9,
+          "clip_tracks": 10,
+          "raw_crop_exact": true
+        }
+      ]
+    }
+  ],
+  "note": "Ground truth only; no trained predictions."
+}

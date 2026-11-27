@@ -1,0 +1,73 @@
+┌──────────────────────────────────────────────────────────────────────┐
+│ DiffSynth-Studio Model Downloader Configuration:                     │
+│                                                                      │
+│ [ ] Download from https://modelscope.cn/                             │
+│     (default behavior)                                               │
+│ [ ] Download from https://modelscope.ai/                             │
+│     (enabled via `export MODELSCOPE_ENDPOINT=https://modelscope.ai`) │
+│ [ ] Download from https://huggingface.co/                            │
+│     (enabled via `export DIFFSYNTH_DOWNLOAD_SOURCE=HuggingFace`)     │
+│ [√] Skip download and load only pre-downloaded model files           │
+│     (enabled via `export DIFFSYNTH_SKIP_DOWNLOAD=True`)              │
+└──────────────────────────────────────────────────────────────────────┘
+Loading models from: [
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+]
+Loaded model: {
+    "model_name": "wan_video_dit",
+    "model_class": "diffsynth.models.wan_video_dit.WanModel",
+    "extra_kwargs": {
+        "has_image_input": false,
+        "patch_size": [
+            1,
+            2,
+            2
+        ],
+        "in_dim": 48,
+        "dim": 3072,
+        "ffn_dim": 14336,
+        "freq_dim": 256,
+        "text_dim": 4096,
+        "out_dim": 48,
+        "num_heads": 24,
+        "num_layers": 30,
+        "eps": 1e-06,
+        "seperated_timestep": true,
+        "require_clip_embedding": false,
+        "require_vae_embedding": false,
+        "fuse_vae_embedding_in_latents": true
+    }
+}
+Loading models from: "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth"
+Detected non-safetensors files, which may cause slower loading. It's recommended to convert it to a safetensors file.
+Loaded model: {
+    "model_name": "wan_video_text_encoder",
+    "model_class": "diffsynth.models.wan_video_text_encoder.WanTextEncoder",
+    "extra_kwargs": null
+}
+Using wan_video_text_encoder from "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth".
+Using wan_video_dit from [
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+].
+No wan_video_vae models available. This is not an error.
+No wan_video_image_encoder models available. This is not an error.
+No wan_video_motion_controller models available. This is not an error.
+No wan_video_vace models available. This is not an error.
+No wan_video_vap models available. This is not an error.
+No wans2v_audio_encoder models available. This is not an error.
+No wan_video_animate_adapter models available. This is not an error.
+/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/code/Wan2.2/wan/modules/vae2_2.py:1028: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=self.dtype):
+{"event": "tile_complete", "tile": 0}
+{"event": "tile_complete", "tile": 1}
+{"event": "tile_complete", "tile": 2}
+{"event": "tile_complete", "tile": 3}
+{"event": "tile_complete", "tile": 4}
+{"event": "tile_complete", "tile": 5}
+{"event": "tile_complete", "tile": 6}
+{"event": "tile_complete", "tile": 7}
+{"event": "tile_complete", "tile": 8}

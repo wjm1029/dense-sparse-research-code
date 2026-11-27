@@ -1,0 +1,35 @@
+本次交付的实际验证范围
+====================
+
+1. CPU 数值/梯度/状态检查：33 项通过。
+   包括 task gate、匹配对 GT 顺序的不变性、无效关节、空场景、坐标单位、
+   decoder流式一致性/未来泄漏、adapter+optimizer断点一致性、缓存完整性、
+   历史causal/AR/self-forcing/bounded KV实现。
+   另完成真实两进程 dispersion 全局梯度对照。
+   详细记录：evidence/CHECKS_CURRENT.json、checks_current.log。
+
+2. 新 JTA 实际视频缓存：3 个训练裁块（7轨迹/33轨迹/空场景）和1个val裁块，
+   使用官方 RGB VAE，写出带 SHA/契约的 BF16 latent 与匹配的多人标注。
+
+3. 新 JTA 完整模型调试：官方 Wan2.2 TI2V5B + 新 LoRA/router/head，
+   在一个7轨迹训练裁块执行2次 optimizer update，分别是2D和3D条件。
+   完成同训练片段的双任务验证和paired trainer state写出。
+   随后重新构造完整模型并加载 adapter、optimizer、scheduler、RNG/step。
+   此reload测试没有再执行额外更新；CPU测试另对恢复后更新做了逐位一致检查。
+
+4. 新 JTA 无GT推理：用上述仅2步的调试checkpoint，完成81帧×9块 forward，
+   写出每块原始预测和原图坐标JSON。为了只检查链路，对未训练模型使用0.99阈值。
+   未以此阈值/模型报告检测准确率，未运行渲染器或全局tracking评测。
+   详细记录：evidence/JTA_GPU_SMOKE_SUMMARY.json 与 JTA_GPU_SMOKE/。
+
+5. 源码：在服务器 Python3.10 上，全包 Python 源码解析通过。
+   证据：evidence/ALL_PYTHON_PARSE.json；最终文件校验见 PACKAGE_MANIFEST.json。
+   原始最终checkpoint绑定的25份源码快照与vendor/中的对应文件逐位一致，
+   见 evidence/RUNTIME_SOURCE_COMPARISON.json。
+
+6. 现有Dense像素头：上一轮已完成depth/matte/normal三份权重严格加载与
+   原结构/流式一致性检查，记录在 evidence/PREVIOUS_CORE_CHECKS.json。
+   当前Dense精度/速度结论来自已有训练与配对测量，不是本次重新训练产生。
+
+以上检查证明代码接口和若干关键行为可执行，不代表新 JTA 已收敛或已泛化。
+历史完整训练未在本次重新运行，新 JTA 多人 causal/AR/OPSD 尚未实现或验证。

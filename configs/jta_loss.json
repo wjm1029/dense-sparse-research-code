@@ -1,0 +1,12 @@
+{
+  "xy": 5.0,
+  "xyz": 1.0,
+  "presence": 1.0,
+  "joint_state": 0.2,
+  "router": 0.001,
+  "occluded_joint_weight": 0.25,
+  "unmatched_presence_weight": 0.1,
+  "matching_xy": 5.0,
+  "matching_xyz": 1.0,
+  "matching_presence": 2.0
+}

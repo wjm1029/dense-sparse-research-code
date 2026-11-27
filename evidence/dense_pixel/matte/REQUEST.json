@@ -1,0 +1,43 @@
+{
+  "stage": "head warmup; frozen Dense6 native DiT",
+  "task": "matte",
+  "steps": 30000,
+  "world_size": 2,
+  "train_clips": 4696,
+  "validation_clips": 445,
+  "test_clips": 471,
+  "architecture": "SiLU -> causal3x1x1 3072->3072 -> five (ConvTranspose1x2x2 + causal3x3x3 + SiLU) -> causal3x1x1 task-specific output",
+  "output_channels": 1,
+  "normal_transform": null,
+  "widths": [
+    1024,
+    512,
+    256,
+    128,
+    64
+  ],
+  "parameters": 81414209,
+  "temporal_adaptation": "Native token0 maps frame0; token1..20 each maps4raw frames, with learned phase embedding before causal detailer",
+  "input": "Existing BF16 last-layer features after native fixed-t=0 head normalization/modulation; not raw pre-head s+e_t",
+  "differences_from_paper": [
+    "Frozen backbone during warmup",
+    "Native RGB VAE encoder and latent AR history retained",
+    "Temporal expansion for native compressed tokens",
+    "Matte1 channel replicated for LPIPS; normal3 signed channels with flipYZ",
+    "Boundary-inclusive192x192 cores with up to32px halo; matte50percent foreground-centered crops",
+    "Deterministic t=0 MSE, no flow/noise reweighting",
+    "Five levels for spatial patch32; widths adapted to D3072"
+  ],
+  "loss": "pixel MSE +0.2 temporal Charbonnier(delta=0.001) +0.2 VGG LPIPS on4frames",
+  "optimizer": "AdamW lr1e-4 beta0.9/0.95 wd0 clip1 EMA0.999; constant LR as paper",
+  "sampling": "2 GPUs x4 crops/update; each crop8targetframes plus up to14contextframes,256x256->192x192 core; boundary-inclusive supervision; four-case CPU bank, refresh1 per2steps perGPU; disjoint exhaustive rank partitions",
+  "precision": "BF16 conv autocast, FP32 final scalar output/loss/master weights",
+  "evaluation": "16 validation clips every2000; full445 validation/full471 test at fixed final step, no test checkpoint selection",
+  "manifest_sha256": "d7a2ca221b7d502a9c67c0ff4a4d16af1a2b8588b6ded1a5121ffd3123a3b1ba",
+  "code_sha256": {
+    "train_modalities_v13.py": "0868711357decc8004946fe11a5320ab07d98e330c5ae4e3ebcd99e1836c283b",
+    "modalities_v13.py": "3cae31bc86778162c571e2f725ec9720687b08adb5cb637f5e4edf7e05db0e14",
+    "pixvid_detailer_v12.py": "fc73cf80cdbde0ae1ca1b0a4ed6703cfadef6fc39fd42aa05f2227751d7ab08b",
+    "prepare_normal_v13.py": "37b00fc24988e35875aaf6ed336ebf070e1b3b7c7dc1a8f329a4b7cd69c164fd"
+  }
+}

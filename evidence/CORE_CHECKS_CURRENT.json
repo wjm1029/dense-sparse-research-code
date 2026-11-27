@@ -1,0 +1,22 @@
+{
+  "unit_tests": 7,
+  "passed": true,
+  "scope": "CPU functional checks, not model quality or full Wan training",
+  "actual_jta_targets": [
+    {
+      "id": "train_seq_85_f0301_t0",
+      "tracks": 5,
+      "finite_loss": true
+    },
+    {
+      "id": "train_seq_170_f0301_t4",
+      "tracks": 33,
+      "finite_loss": true
+    },
+    {
+      "id": "train_seq_170_f0301_t0",
+      "tracks": 0,
+      "finite_loss": true
+    }
+  ]
+}

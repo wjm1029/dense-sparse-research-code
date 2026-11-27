@@ -1,0 +1,19 @@
+{
+  "package": "dense_sparse_research_code_20261127",
+  "scope": "complete review source, current Dense stages plus new JTA bidirectional workflow",
+  "origins": {
+    "vendor/DiffSynth-Studio": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio",
+    "vendor/Wan2.2": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/Wan2.2",
+    "dense_pixel": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code",
+    "core": "prior reviewed dense_jta_code_20261127 core, preserved for readable model/loss/decode interfaces",
+    "tools": "new 2026-11-27 workflow code; see evidence reports for executed scope",
+    "vendor/lpips_runtime": "existing experiment LPIPS 0.1.4 sources; upstream license retained"
+  },
+  "exclusions": [
+    "base model weights",
+    "large trained adapter/head weights",
+    "training videos",
+    "cached latents",
+    "optimizer bundles"
+  ]
+}

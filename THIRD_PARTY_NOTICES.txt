@@ -1,0 +1,24 @@
+Third-party source attribution
+==============================
+
+vendor/DiffSynth-Studio
+  DiffSynth-Studio / ModelScope team. Retains its upstream LICENSE and README.
+  This snapshot also contains this project's historical dense_lora experiments.
+  Upstream library code must not be described as original project code.
+
+vendor/Wan2.2
+  Wan2.2 official source snapshot. Retains upstream LICENSE and notices.
+  The official VAE code is reused for RGB encoding and the legacy output path.
+
+vendor/lpips_runtime
+  LPIPS 0.1.4 / PerceptualSimilarity. Retains package metadata and LICENSE.
+  Includes the small linear perceptual calibration weights distributed by LPIPS;
+  does not include the large ImageNet VGG backbone checkpoint.
+
+core/native_reference
+  Byte-preserved reference files from the existing research project and decoder
+  experiment. See evidence/PREVIOUS_CORE_SOURCE_MANIFEST.json for provenance.
+
+The new package organization, JTA workflow, and review documentation are a
+continuation of the existing user project. This bundle does not assign a new
+license to existing user-authored code or supersede third-party licenses.

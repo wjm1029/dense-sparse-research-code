@@ -1,0 +1,102 @@
+{
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/train_wan22_dense6_dispersion_ddp.py": {
+    "sha256": "8c6c768eae28abb7caa99a87ffc9c3d3d7a383567895a13c62272655e2dc3f17",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/train_wan22_dense6_long477_ddp.py": {
+    "sha256": "02b8673ac0ac3fc79b7d81531cf9f0015e0950648e69913be861ed5d2c42adc6",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/train_wan22_dense6_long477_opsd_ddp.py": {
+    "sha256": "30144457f613669174b9dbc494443fa18b6688ac58ff83230291caa90b1c62bf",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_ar_self_forcing.py": {
+    "sha256": "654e7cea89e1094994fea732684ead2f4e09b9c37dfbfdb21721a27a85e338fd",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_ar_teacher_forcing.py": {
+    "sha256": "4442cdb5134bb5058b2a2d90368beea7a141024268c550c4bcfcc7cf05520270",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_causal_attention.py": {
+    "sha256": "a2ff06183d98f871e312aed471271b46d4212b581a252e7fd7e866c2143a855d",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_dense6_checkpoint.py": {
+    "sha256": "3b284750b2ed14894c09e073e13f529954e356a127f02360aacc6091f4b8f53d",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_dense6_dispersion.py": {
+    "sha256": "bc12fe662713a75d954e5859c71243ac42d2f6407de8fec026585ecad4208973",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_dense6_long477.py": {
+    "sha256": "6090cf681da43479ea6c859f6e10da889bc7d5133cc2476f6663b58a9ec3bab3",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_dense6_long477_opsd.py": {
+    "sha256": "235d1878aaf416dcfef36d0faaab69a410af2cfd6eca2f95cac1a572b964f32d",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_dense6_task_router.py": {
+    "sha256": "bd9e5eeac629230de9361260df2b177b80bf789016c41f38be5d078405610c75",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_masked_loss.py": {
+    "sha256": "f2eb5065a3835ae17b57b0ed8277b710e2364d30f7bd6cae29421b36644db792",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_opsd_bounded_causal_attention.py": {
+    "sha256": "3d6b3954e0ec8ebd176d923dadf3334641ce5abebdaf71e4abc3910c878b6564",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/dense6/long477_opsd5250_FINAL/wan22_opsd_prefix_cache.py": {
+    "sha256": "89a963d4121efed998d95d065e104bc5d89a10167b1026146a37e40e0c87220e",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/train_wan22_sparse_ddp.py": {
+    "sha256": "484dc231ae98333030669700bad04d8429d1c838c8cf4a5c70cca3cdec5e3d2e",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/train_wan22_sparse_long477_ddp.py": {
+    "sha256": "fd868b8117ab71f7fad0d08ec328cddaa991912c8c72c38ce492729ea2700b6d",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/train_wan22_sparse_prompt_full_ddp.py": {
+    "sha256": "974c8ba33bca6d4d8b54180b971411290565e079be84fd7beae676641503e65e",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_ar_self_forcing.py": {
+    "sha256": "654e7cea89e1094994fea732684ead2f4e09b9c37dfbfdb21721a27a85e338fd",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_causal_attention.py": {
+    "sha256": "a2ff06183d98f871e312aed471271b46d4212b581a252e7fd7e866c2143a855d",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_dense6_task_router.py": {
+    "sha256": "bd9e5eeac629230de9361260df2b177b80bf789016c41f38be5d078405610c75",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_opsd_bounded_causal_attention.py": {
+    "sha256": "3d6b3954e0ec8ebd176d923dadf3334641ce5abebdaf71e4abc3910c878b6564",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_opsd_prefix_cache.py": {
+    "sha256": "89a963d4121efed998d95d065e104bc5d89a10167b1026146a37e40e0c87220e",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_sparse_causal_ar.py": {
+    "sha256": "131e6a70c4dd726c661f65e2db5336056790562b62a4b4d1dfc0da4cdfaa9900",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_sparse_long477.py": {
+    "sha256": "c340f1a5447fd15a749663b951951441fe82eda5887d6c2f2b2b159c12cce606",
+    "vendor_same": true
+  },
+  "evidence/runtime_source/sparse/long477_opsd2625_FINAL/wan22_sparse_task_router.py": {
+    "sha256": "7d304a129e7e4e5c21c833cdb4352e199e49b308faaf957b96cacabf0831190d",
+    "vendor_same": true
+  }
+}

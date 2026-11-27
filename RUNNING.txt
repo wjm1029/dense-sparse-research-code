@@ -1,0 +1,151 @@
+运行与依赖
+==========
+
+当前服务器项目根目录（下文 ROOT）：
+  /xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense
+本包目录（下文 PACKAGE）：
+  ROOT/experiments/dense_sparse_research_code_20261127
+Python：
+  bash ROOT/tools/wan22_python.sh
+该入口使用 ROOT/envs/wan22，缓存/临时文件放 NAS；请把示例中的 ROOT/PACKAGE
+展开为实际路径，不需要更改 HOME 等系统环境变量。
+在本包服务器默认位置，也可直接使用 bash tools/python.sh 作为 Python 入口。
+例如 bash tools/python.sh tools/entrypoints.py。
+
+全新环境
+--------
+Python3.10；PyTorch2.10.0+cu128、torchvision0.25.0+cu128；其他依赖见 requirements.txt。
+ENVIRONMENT_FREEZE_20261127.txt 是原服务器完整环境记录，含无关项目与 editable
+路径，只用于溯源，不应该整体强行安装到新环境。
+tools/ 下脚本自动加入 bundled DiffSynth 源码路径，不要求 pip 安装本项目。
+LPIPS/VGG 相关代码用于像素头训练，现有 core CPU 检查和 JTA 不需要 VGG 权重。
+
+需要自行提供的权重
+------------------
+ROOT/models/Wan2.2-TI2V-5B/
+  diffusion_pytorch_model-00001-of-00003.safetensors
+  diffusion_pytorch_model-00002-of-00003.safetensors
+  diffusion_pytorch_model-00003-of-00003.safetensors
+  models_t5_umt5-xxl-enc-bf16.pth
+  google/umt5-xxl/ ... tokenizer
+  Wan2.2_VAE.pth
+
+Dense 最终适配器：
+ROOT/weights/current/dense6/long477_opsd5250_FINAL/step-5250.safetensors
+以及同目录 config.json。不要只加载 lora_ 键，router、feature table、context
+和历史投影等也属于模型状态。core/dense_native.py 会核验原源码及 key 集合。
+三任务像素头：
+ROOT/experiments/pixvid_decode_probe_20261122/pixvid_detailer_v12/depth/head_30000.pt
+ROOT/experiments/pixvid_decode_probe_20261122/pixvid_modalities_v13/matte/head_30000.pt
+ROOT/experiments/pixvid_decode_probe_20261122/pixvid_modalities_v13/normal/head_30000.pt
+它们是独立输出头，不是 Sparse 权重。
+
+运行前检查卡的当时占用，只选择空闲卡；示例 CUDA_VISIBLE_DEVICES=3 只是编号示意，
+不代表这张卡永远空闲。代码不会终止别人的任务。
+
+一、审阅入口与 CPU 检查（不加载基座）
+-------------------------------------
+在 PACKAGE 下：
+  bash ROOT/tools/wan22_python.sh tools/entrypoints.py
+  CUDA_VISIBLE_DEVICES= bash ROOT/tools/wan22_python.sh tools/run_checks.py
+检查门控梯度、masked loss、多人匹配、空场景、decoder流式一致性、断点状态、
+数据完整性、causal/AR future leakage、KV cache，以及两进程 dispersion 梯度。
+vendor/ 中其他测试属于完整上游/历史工程；不保证所有测试都不依赖旧数据。
+
+二、新 JTA 数据 -> 索引 -> VAE 缓存
+----------------------------------
+JTA 数据目录：ROOT/dataset/JTA/{videos,annotations}/{train,val,test}/seq_*.mp4/json。
+先构建官方 train/val 的原尺寸裁块索引：
+  bash ROOT/tools/wan22_python.sh core/jta_tiles.py \
+    --root ROOT/dataset/JTA --output /your/nas/jta_index \
+    --splits train val --workers 4
+输出目录必须不存在；不改原视频/标注。完整帧标签没有人时保留为空场景。
+默认 9 块、81 帧、30fps，不 resize，不将一个人的轨迹当作单独源视频。
+
+单卡生成完整 RGB latent cache：
+  CUDA_VISIBLE_DEVICES=3 bash ROOT/tools/wan22_python.sh tools/jta_cache.py \
+    --project-root ROOT --index /your/nas/jta_index/index.jsonl \
+    --output /your/nas/jta_cache
+首次建议 --only-ids <一个train的clip ID> <一个val的clip ID> 验证接口，
+或 --limit-per-split 2 做少量预处理；此限制只用于调试，不是全量实验。
+
+多卡缓存：不同进程使用同一 output、同样的选择参数，分别设置
+--num-shards N --shard-id 0..N-1，每个进程映射一张空卡。
+全部完成后：
+  bash ROOT/tools/wan22_python.sh tools/jta_cache.py \
+    --output /your/nas/jta_cache --finalize
+每个 .pt 包含 source_latent、多人target、原始视频/JSON SHA 与缓存契约。
+按文件原子保存，支持跳过同契约已完成文件；模型/标签/索引契约变化须换新目录。
+
+三、新 JTA 完整双向训练
+----------------------
+先做一个训练裁块 overfit：
+  CUDA_VISIBLE_DEVICES=3 bash ROOT/tools/wan22_python.sh tools/jta_train.py \
+    --project-root ROOT --cache /your/nas/jta_cache \
+    --output /your/nas/jta_overfit \
+    --overfit-id train_seq_85_f0244_t0 --max-steps 1000 \
+    --eval-every 100 --save-every 100 --eval-clips 1 \
+    --loss-config configs/jta_loss.json
+选取的 ID 必须存在于当前缓存；overfit 验证明确为同一个训练片段。
+
+普通单卡训练：去掉 --overfit-id，缓存中必须同时有 train/val。
+默认 30000 step、90%有人/10%空块；这些是新实验初始超参，尚无全量结果。
+不同任务交替 forward/backward 后再更新；不把尚未完成 backward 的 router 切换任务。
+
+多卡训练示例（当前空闲卡需要重新确认）：
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash ROOT/tools/wan22_python.sh \
+    -m torch.distributed.run --standalone --nnodes=1 --nproc-per-node=4 \
+    tools/jta_train.py --project-root ROOT --cache /your/nas/jta_cache \
+    --output /your/nas/jta_train --max-steps 30000 \
+    --loss-config configs/jta_loss.json
+数据按原 source sequence 的官方划分；validation 不从 train 裁块随机抽取。
+固定超参与代码/缓存契约写入 config；按 step/rank/seed 决定采样。
+
+精确断点继续（同代码、超参和 world size）：
+  在相同训练命令后追加 --resume /your/nas/jta_train/trainer_latest.pt。
+保存 weights+optimizer+scheduler+各rank RNG+step。仅 adapter_step_*.pt 不用于精确resume。
+可设 --stop-file /your/nas/STOP_JTA；存在后保存断点并退出。
+验证的 matched error 是诊断指标，不是官方 JTA AP/MOTA。
+
+四、新 JTA 推理
+--------------
+  CUDA_VISIBLE_DEVICES=3 bash ROOT/tools/wan22_python.sh tools/jta_infer.py \
+    --project-root ROOT --checkpoint /your/nas/jta_train/adapter_step_030000.pt \
+    --video ROOT/dataset/JTA/videos/val/seq_257.mp4 --start-frame 1 \
+    --task 3d --threshold 0.5 --output /your/nas/jta_prediction --render
+本入口要求 1920x1080 输入，连续81帧。默认采用 JTA 固定内参 fx=fy1158,cx960,cy540，
+不能把它当作任意真实相机已经标定的入口。
+读取RGB，不读取人物标签；9块推理，保存原始每块输出、合并JSON和可选叠加视频。
+跨块抑制是启发式，跨clip身份关联未实现；只输出相对3D，不含绝对root深度。
+
+五、现有 Dense 推理与像素头
+--------------------------
+在 PACKAGE 下：
+  bash ROOT/tools/wan22_python.sh core/example_usage.py dense-predict \
+    --root ROOT --rgb /your/rgb_81frames_480x832_uint8.npy \
+    --task depth --decoder direct --output /your/depth_prediction.pt
+--decoder vae 切换官方输出VAE；--task normal/matte同样支持。
+输入是 RGB uint8 [81,480,832,3]；输出保留 signed 训练值域，不做逐帧可视化拉伸。
+完整现有实测推理/测速脚本在 dense_pixel/infer_real_v16.py、benchmark_decode_v14.py；
+它们保留原实验目录。core/dense_native.py 是抽出的清晰可读接口。
+
+像素头原训练完整逻辑在 dense_pixel/train_pixvid_v12.py、train_modalities_v13.py。
+它们使用历史 native feature/target cache 和实验目录，不与新 JTA 标签混用。
+depth v12 的旧边缘监督限制、matte/normal v13 的边缘覆盖修正见对应脚本与 evidence/。
+LPIPS 还需要冻结 VGG 参数；不在本代码包携带或自动下载大型 backbone 权重。
+
+六、历史 Dense / 旧单人 Sparse 的五阶段训练代码
+---------------------------------------------
+完整入口、模块和实际阶段步数见 PAPER_CODE_MAP.txt 与 tools/entrypoints.py。
+模型、forward、loss、teacher、cache和训练循环均保留，不是空壳或伪代码。
+这部分供老师审阅已完成方法，源码保持历史原样，包含 /pfs 路径和来源 hash 检查。
+当前机器没有旧 /pfs 和旧训练缓存；原 stage driver 不能原样直接启动。
+重建训练需要提供与原 manifest/label schema 一致的数据，重定位真实路径，
+为新的运行创建新的 provenance receipt，不应改 hash 断言伪装为原实验。
+
+阶段转换：bidir checkpoint -> frame-causal checkpoint -> AR(新history投影0初始化)
+ -> self-forcing(预测历史) -> bounded OPSD(EMA teacher/延迟clean-prefix)。
+每阶段重新建optimizer；阶段内精确resume需要paired optimizer/RNG。
+备份只保留两端权重和部分配置，没有每个中间权重或paired optimizer，因此
+不声称有一个能够在无原数据情况下重现历史结果的“一键命令”。
+新 JTA 多人 causal/AR/OPSD 尚未实现，不能用旧24关节脚本替代。

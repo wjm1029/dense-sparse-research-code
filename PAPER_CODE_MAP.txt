@@ -1,0 +1,120 @@
+给论文写作和代码审阅的索引
+========================
+
+一、共享 LoRA 的任务条件门控
+--------------------------
+阅读 core/task_gating.py；原实现：
+vendor/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_task_router.py
+
+公式：
+  e_task = stopgrad(UMT5(task instruction)[0,0])
+  g_task = 1 + 0.5*tanh(Linear(MLP(LayerNorm(e_task))))
+  y = W_frozen*x + scale*B(g_task ⊙ A(dropout(x)))
+gate shape [B,300,32]，范围 [0.5,1.5]，初始恰好为 1。
+6 类 Dense 任务共享 Dense LoRA；2 类 Sparse 任务共享另一份 Sparse LoRA。
+Dense/Sparse 适配器互相独立。不是每任务一份 LoRA，不是 MoE softmax。
+UMT5 冻结、任务特征表保存为 buffer；LoRA/router/任务输出模块可训练。
+router identity 正则 = mean((g-1)^2)，系数 0.001。
+完整文本 context 还输入 DiT cross-attention；这条路径和 rank 门控同时存在。
+
+二、历史 Dense 主干训练阶段
+--------------------------
+以下文件前缀相同：
+  vendor/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/
+
+Bidirectional：train_wan22_dense6_dispersion_ddp.py
+  Dense6LoRAModule 构造/forward/predict_velocity；wan22_dense6_task_router.py。
+  历史总计 120k，最后 20k 加 dispersion；不能写成 120k 全程同一个损失配置。
+
+Causal：train_wan22_dense6_causal_ddp.py
+  CausalDense6LoRAModule；wan22_causal_attention.py 的帧块因果 attention 与 KV。
+  run_wan22_dense6_causal_ar_stage.py 为历史 stage driver，45,000 optimizer steps。
+
+AR teacher forcing：train_wan22_dense6_ar_tf_ddp.py
+  ARTeacherForcingDense6LoRAModule；wan22_ar_teacher_forcing.py。
+  新增历史投影零初始化，当前块只看前块 GT 历史；推理回灌预测。43,500 steps。
+
+Long self forcing：train_wan22_dense6_long477_ddp.py
+  wan22_dense6_long477.py:LongDenseModule；wan22_ar_self_forcing.py。
+  477 raw -> 120 latent -> 40 chunks；每块 3 latent；4,800 steps。
+  每块 detach 预测历史和 KV，截断反向传播。
+
+Bounded OPSD：train_wan22_dense6_long477_opsd_ddp.py
+  wan22_dense6_long477_opsd.py:Dense6OPSDModule。
+  wan22_opsd_bounded_causal_attention.py：sink3 + local12，绝对时序位置。
+  wan22_opsd_prefix_cache.py：EMA、teacher clean-prefix 延迟重放、KV 分离。
+  5,250 steps，EMA decay0.9999，从 latent offset21 开始蒸馏。
+
+上述阶段转换不是同一 optimizer 的精确 resume；各阶段重新建 optimizer。
+原代码与 checkpoint 绑定源码都保留；最终权重绑定来源见 evidence/runtime_source/。
+
+三、Dense loss 和输出 decode
+--------------------------
+阅读 core/dense_loss.py、core/dense_decode.py、core/dense_native.py。
+主干：masked MSE(-velocity, latent_GT) + 0.001*router + 0.01*dispersion。
+OPSD 再加权重1的 EMA teacher latent MSE；监督块和蒸馏块分别平均。
+dispersion：第9 block，完整时空特征，同 prompt 的不同样本，可微多卡 gather。
+它减少特征塌缩，不是多任务 loss 自适应平衡；当前没有 GradNorm/uncertainty balancing。
+我们用均方特征距离和系数0.01；不能说与 FE2E 的公式尺度和系数完全相同。
+
+直接像素头：
+  dense_pixel/pixvid_detailer_v12.py：depth。
+  dense_pixel/modalities_v13.py：matte/normal。
+  dense_pixel/train_pixvid_v12.py、train_modalities_v13.py：训练循环、EMA和验证。
+  core/dense_decode.py：整理后接口，state_dict 与这三份现有 head 严格兼容。
+  dit.head.head PRE-hook 特征 [B,21,15,26,3072]（已 norm/modulation）
+  -> 1+4n raw-frame 展开 + phase embedding
+  -> causal conv -> 5层空间2倍上采样/causal conv -> task-specific 1或3通道像素。
+loss = MSE +0.2*temporal Charbonnier +0.2*VGG LPIPS。
+不是去掉整个 VAE：RGB encoder 保留；旧 latent readout 仍用于 AR history。
+现有像素头绑定 Dense OPSD5250 特征；未证明可直接替换到 bidirectional120k。
+只做冻结 DiT 的像素头训练，是对论文思路的适配，不是完整复现 PixVid。
+
+四、新 JTA 多人 Sparse（新增方法，实验未完成）
+------------------------------------------
+数据：core/jta_tiles.py；tools/jta_cache.py。
+1920x1080 -> 9个重叠832x480固定裁块，不 resize；每段81帧、原始30fps。
+2D减crop origin再归一化；内参principal point相应平移；相机3D不随2D裁剪旋转。
+JTA 为 GTA V 合成数据，官方 256train/128val/128test；test 不参与本次规则调试。
+可见、遮挡、出块/padding、3D有效性分别保存；完全不可观察的人不作为正检测目标。
+索引可见人筛选用于构造训练样本；推理不使用 GT 筛块，始终覆盖九块。
+
+模型：core/sparse_model.py、sparse_decode.py、task_gating.py。
+官方 Wan 初始化 + 新 zero-delta LoRA + 新 router + 新128-person-query头。
+不加载任何旧 Sparse checkpoint。
+Sparse 取 dit.head 的输入特征，与 Dense pixel head 的特征捕获点不同。
+每层 person query 在空间做 self/cross attention，按 person slot 沿时间做双向 attention。
+crop坐标和内参视线作为位置条件；21 latent ->81 raw phase 展开。
+输出22关节、每帧presence、in_crop、visible；3D任务附带辅助2D。
+3D为mid-hip-relative相机米制，左右hip均值归零；没有actor-height归一化。
+两个任务分别forward，不假设两次forward的slot编号有同一身份。
+
+Loss：core/sparse_loss.py。
+GT person ID 只用于构造整段轨迹；Hungarian一次匹配整段预测slot与GT轨迹。
+初始固定权重：5*2D_MSE +1*3D_MSE[仅3D] +presence_BCE
+               +0.2*(in_crop_BCE+visible_BCE)+0.001*router。
+可见关节权重1，遮挡且在块内关节0.25，出块/无效/padding不进坐标loss。
+3D为米、2D为归一化坐标；上述权重尚未经全量训练调优。
+没有新增 dispersion、几何重投影/骨长loss、自动任务平衡或OPSD teacher。
+
+训练和验证：tools/jta_train.py。
+完整双向训练，按任务轮换，支持DDP、单clip overfit、空块采样、断点恢复。
+保存 LoRA/head/router/context、optimizer、scheduler、各rank RNG与已完成step。
+验证为官方sequence-disjoint；overfit明确标为same-training-clip。
+报告人数MAE和GT-matched 2D/3D误差，不冒充官方JTA AP、MOTA或真实视频精度。
+
+推理：tools/jta_infer.py。
+不读取人物标签；九块native-pixel推理，恢复2D原图坐标，基于关节距离跨块重复抑制。
+重复抑制是可检查的启发式，没有训练成全局跟踪器；跨clip身份关联尚未实现。
+不输出绝对3D root/world pose。
+
+五、论文中已有证据与待验证项目
+----------------------------
+已有：Dense五阶段历史配置/权重；三任务直接像素输出头训练与测试；原生OPSD推理；
+速度配对测试；真实视频定性可视化（无GT不能报告准确率）。
+新增：JTA数据规则和多人训练/推理代码，本次 smoke 数量与指标见证据报告。
+未完成：新 JTA 全量训练效果、多人causal/AR/OPSD、完整tracking、任务平衡消融。
+不要把实现代码、单元测试通过和已经取得实验结果写成同一件事。
+
+外部基础模型/论文方法和本项目改动需分别引用；上游源码 LICENSE 见 vendor/。
+此包是对现有项目的整理与新增工程，不声称所有第三方组件为本项目原创。

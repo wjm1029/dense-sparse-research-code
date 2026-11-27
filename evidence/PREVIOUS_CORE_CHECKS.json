@@ -1,0 +1,76 @@
+{
+  "unit_tests": 7,
+  "passed": true,
+  "scope": "CPU functional checks, not model quality or full Wan training",
+  "actual_jta_targets": [
+    {
+      "id": "train_seq_85_f0301_t0",
+      "tracks": 5,
+      "finite_loss": true
+    },
+    {
+      "id": "train_seq_170_f0301_t4",
+      "tracks": 33,
+      "finite_loss": true
+    },
+    {
+      "id": "train_seq_170_f0301_t0",
+      "tracks": 0,
+      "finite_loss": true
+    }
+  ],
+  "native_dense_head_load": {
+    "depth": {
+      "strict_load": true,
+      "parameters": 81414209
+    },
+    "matte": {
+      "strict_load": true,
+      "parameters": 81414209
+    },
+    "normal": {
+      "strict_load": true,
+      "parameters": 81414595
+    }
+  },
+  "full_default_sparse_head": {
+    "parameters": 4996507,
+    "output_shapes": {
+      "xy": [
+        1,
+        81,
+        128,
+        22,
+        2
+      ],
+      "presence_logits": [
+        1,
+        81,
+        128
+      ],
+      "in_crop_logits": [
+        1,
+        81,
+        128,
+        22
+      ],
+      "visible_logits": [
+        1,
+        81,
+        128,
+        22
+      ],
+      "xyz": [
+        1,
+        81,
+        128,
+        22,
+        3
+      ]
+    },
+    "finite": true,
+    "backbone_executed": false
+  },
+  "entrypoint_imports": true,
+  "official_vae_wrapper_layout": "B,T,C,H,W; checked with stub decoder"
+}

@@ -1,0 +1,38 @@
+{
+  "stage": "head warmup; frozen Dense6 native DiT",
+  "task": "depth",
+  "steps": 30000,
+  "world_size": 4,
+  "train_clips": 4696,
+  "validation_clips": 445,
+  "test_clips": 471,
+  "architecture": "SiLU -> causal3x1x1 3072->3072 -> five (ConvTranspose1x2x2 + causal3x3x3 + SiLU) -> causal3x1x1 scalar",
+  "widths": [
+    1024,
+    512,
+    256,
+    128,
+    64
+  ],
+  "parameters": 81414209,
+  "temporal_adaptation": "Native token0 maps frame0; token1..20 each maps4raw frames, with learned phase embedding before causal detailer",
+  "input": "Existing BF16 last-layer features after native fixed-t=0 head normalization/modulation; not raw pre-head s+e_t",
+  "differences_from_paper": [
+    "Frozen backbone during warmup",
+    "Native RGB VAE encoder and latent AR history retained",
+    "Temporal expansion for native compressed tokens",
+    "Scalar depth instead of RGB; LPIPS on replicated depth",
+    "Deterministic t=0 MSE, no flow/noise reweighting",
+    "Five levels for spatial patch32; widths adapted to D3072"
+  ],
+  "loss": "pixel MSE +0.2 temporal Charbonnier(delta=0.001) +0.2 VGG LPIPS on4frames",
+  "optimizer": "AdamW lr1e-4 beta0.9/0.95 wd0 clip1 EMA0.999; constant LR as paper",
+  "sampling": "4 GPUs x2 crops/update; each crop8targetframes plus up to14contextframes,256x256->192x192 core; four-case CPU bank, refresh1 per2steps perGPU; disjoint exhaustive rank partitions",
+  "precision": "BF16 conv autocast, FP32 final scalar output/loss/master weights",
+  "evaluation": "16 validation clips every2000; full445 validation/full471 test at fixed final step, no test checkpoint selection",
+  "manifest_sha256": "d7a2ca221b7d502a9c67c0ff4a4d16af1a2b8588b6ded1a5121ffd3123a3b1ba",
+  "code_sha256": {
+    "train_pixvid_v12.py": "54ed3d2619898d9ba985be05f8cc3a56681cda36f6846bb81c32901902e109f0",
+    "pixvid_detailer_v12.py": "fc73cf80cdbde0ae1ca1b0a4ed6703cfadef6fc39fd42aa05f2227751d7ab08b"
+  }
+}

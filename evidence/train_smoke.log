@@ -1,0 +1,64 @@
+┌──────────────────────────────────────────────────────────────────────┐
+│ DiffSynth-Studio Model Downloader Configuration:                     │
+│                                                                      │
+│ [ ] Download from https://modelscope.cn/                             │
+│     (default behavior)                                               │
+│ [ ] Download from https://modelscope.ai/                             │
+│     (enabled via `export MODELSCOPE_ENDPOINT=https://modelscope.ai`) │
+│ [ ] Download from https://huggingface.co/                            │
+│     (enabled via `export DIFFSYNTH_DOWNLOAD_SOURCE=HuggingFace`)     │
+│ [√] Skip download and load only pre-downloaded model files           │
+│     (enabled via `export DIFFSYNTH_SKIP_DOWNLOAD=True`)              │
+└──────────────────────────────────────────────────────────────────────┘
+Loading models from: [
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+]
+Loaded model: {
+    "model_name": "wan_video_dit",
+    "model_class": "diffsynth.models.wan_video_dit.WanModel",
+    "extra_kwargs": {
+        "has_image_input": false,
+        "patch_size": [
+            1,
+            2,
+            2
+        ],
+        "in_dim": 48,
+        "dim": 3072,
+        "ffn_dim": 14336,
+        "freq_dim": 256,
+        "text_dim": 4096,
+        "out_dim": 48,
+        "num_heads": 24,
+        "num_layers": 30,
+        "eps": 1e-06,
+        "seperated_timestep": true,
+        "require_clip_embedding": false,
+        "require_vae_embedding": false,
+        "fuse_vae_embedding_in_latents": true
+    }
+}
+Loading models from: "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth"
+Detected non-safetensors files, which may cause slower loading. It's recommended to convert it to a safetensors file.
+Loaded model: {
+    "model_name": "wan_video_text_encoder",
+    "model_class": "diffsynth.models.wan_video_text_encoder.WanTextEncoder",
+    "extra_kwargs": null
+}
+Using wan_video_text_encoder from "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth".
+Using wan_video_dit from [
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+    "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/models/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors"
+].
+No wan_video_vae models available. This is not an error.
+No wan_video_image_encoder models available. This is not an error.
+No wan_video_motion_controller models available. This is not an error.
+No wan_video_vace models available. This is not an error.
+No wan_video_vap models available. This is not an error.
+No wans2v_audio_encoder models available. This is not an error.
+No wan_video_animate_adapter models available. This is not an error.
+{"step": 1, "rank": 0, "task": 0, "id": "train_seq_85_f0244_t0", "loss": 3.057861804962158, "grad_norm": 17.802370071411133, "elapsed_seconds": 2.994388770312071, "xy": 0.5349225997924805, "xyz": -0.0, "presence": 0.10164318978786469, "in_crop": 0.6857464909553528, "visible": 0.7222827076911926, "router": 0.0}
+{"event": "validation", "step": 2, "tasks": {"0": {"clips": 1, "loss": 3.0149121284484863, "count_mae": 46.75308609008789, "matched_visible_2d_error_px": 581.6140350877193}, "1": {"clips": 1, "loss": 3.180211067199707, "count_mae": 46.790122985839844, "matched_visible_2d_error_px": 581.5285087719299, "matched_root_relative_mpjpe_mm": 672.9331771530567}}}

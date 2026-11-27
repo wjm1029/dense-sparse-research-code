@@ -1,0 +1,635 @@
+{
+  "scope": "six sequences only; schema/geometry/track audit, no model training",
+  "sequences": [
+    {
+      "split": "train",
+      "sequence": 0,
+      "rows": 816772,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 61,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 37126,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 35,
+        "median": 41.0,
+        "max": 51
+      },
+      "bbox_height_px_percentiles": [
+        38.0,
+        89.5,
+        162.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        0.0,
+        21.0
+      ],
+      "occluded_fraction": 0.5850065869055256,
+      "self_occluded_fraction": 0.22277575626980356,
+      "projection_error_px": {
+        "median": 0.43660631152975976,
+        "p99": 1.126270378204029,
+        "max": 4.292484071675484
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        33.0,
+        508.0,
+        900.0,
+        900.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 54,
+      "unfiltered_nonoverlap_81_frame_track_windows": 425,
+      "unfiltered_81_frame_stride2_track_windows": 190,
+      "seconds": 2.2766706943511963,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.9573895775075542,
+        "on_screen_p99_px": 1.1145121682797379,
+        "visible_on_screen_p99_px": 1.2445029788948647,
+        "visible_on_screen_gt5px_fraction": 0.0,
+        "all_gt5px_fraction": 0.0,
+        "worst_rows": [
+          [
+            263.0,
+            47.0,
+            14.0,
+            1696.0,
+            1194.0,
+            1.91,
+            1.7,
+            3.02,
+            0.0,
+            1.0
+          ],
+          [
+            22.0,
+            28.0,
+            0.0,
+            1861.0,
+            896.0,
+            2.41,
+            0.95,
+            3.11,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "split": "train",
+      "sequence": 85,
+      "rows": 674652,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 101,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 30666,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 14,
+        "median": 36.0,
+        "max": 52
+      },
+      "bbox_height_px_percentiles": [
+        26.0,
+        44.0,
+        112.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        12.0,
+        22.0
+      ],
+      "occluded_fraction": 0.4509450798337513,
+      "self_occluded_fraction": 0.3321564302781286,
+      "projection_error_px": {
+        "median": 0.4130216716262304,
+        "p99": 1.2413189164671345,
+        "max": 82.27403387049682
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        5.0,
+        244.0,
+        650.0,
+        652.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 72,
+      "unfiltered_nonoverlap_81_frame_track_windows": 338,
+      "unfiltered_81_frame_stride2_track_windows": 142,
+      "seconds": 1.9376144409179688,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.989753235742279,
+        "on_screen_p99_px": 1.1233610762064314,
+        "visible_on_screen_p99_px": 1.3571742310739436,
+        "visible_on_screen_gt5px_fraction": 7.439177570307381e-05,
+        "all_gt5px_fraction": 0.00026087523641818303,
+        "worst_rows": [
+          [
+            655.0,
+            9.0,
+            6.0,
+            2628.0,
+            19.0,
+            0.34,
+            -0.11,
+            0.23,
+            0.0,
+            0.0
+          ],
+          [
+            652.0,
+            9.0,
+            21.0,
+            -2663.0,
+            2854.0,
+            -0.95,
+            0.61,
+            0.31,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "split": "train",
+      "sequence": 170,
+      "rows": 906730,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 60,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 41215,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 40,
+        "median": 47.0,
+        "max": 51
+      },
+      "bbox_height_px_percentiles": [
+        26.0,
+        44.0,
+        158.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        10.0,
+        22.0
+      ],
+      "occluded_fraction": 0.5256040938316808,
+      "self_occluded_fraction": 0.26148467570280015,
+      "projection_error_px": {
+        "median": 0.41763036154791,
+        "p99": 1.2654588708951657,
+        "max": 3.3493559073831847
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        234.9,
+        769.0,
+        900.0,
+        900.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 60,
+      "unfiltered_nonoverlap_81_frame_track_windows": 489,
+      "unfiltered_81_frame_stride2_track_windows": 225,
+      "seconds": 2.6485755443573,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.9852800723478875,
+        "on_screen_p99_px": 1.1054780353603886,
+        "visible_on_screen_p99_px": 1.2781464346920894,
+        "visible_on_screen_gt5px_fraction": 0.0,
+        "all_gt5px_fraction": 0.0,
+        "worst_rows": [
+          [
+            614.0,
+            60.0,
+            10.0,
+            1561.0,
+            1356.0,
+            2.0,
+            2.71,
+            3.86,
+            0.0,
+            0.0
+          ],
+          [
+            99.0,
+            48.0,
+            6.0,
+            1807.0,
+            1290.0,
+            3.14,
+            2.78,
+            4.28,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "split": "val",
+      "sequence": 341,
+      "rows": 723206,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 101,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 32873,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 2,
+        "median": 32.0,
+        "max": 63
+      },
+      "bbox_height_px_percentiles": [
+        23.0,
+        44.0,
+        169.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        8.0,
+        22.0
+      ],
+      "occluded_fraction": 0.5243443776738578,
+      "self_occluded_fraction": 0.4132501666191929,
+      "projection_error_px": {
+        "median": 0.4230745792349597,
+        "p99": 1.5662429507473572,
+        "max": 9015.621664644097
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        16.0,
+        371.0,
+        410.0,
+        485.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 80,
+      "unfiltered_nonoverlap_81_frame_track_windows": 357,
+      "unfiltered_81_frame_stride2_track_windows": 151,
+      "seconds": 2.090155601501465,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.9910108599762724,
+        "on_screen_p99_px": 1.4303043488264147,
+        "visible_on_screen_p99_px": 1.838278678779824,
+        "visible_on_screen_gt5px_fraction": 0.0004428343860900799,
+        "all_gt5px_fraction": 0.000766033467642691,
+        "worst_rows": [
+          [
+            384.0,
+            41.0,
+            21.0,
+            8440.0,
+            7167.0,
+            0.83,
+            0.74,
+            0.13,
+            0.0,
+            0.0
+          ],
+          [
+            385.0,
+            41.0,
+            21.0,
+            42420.0,
+            36662.0,
+            0.83,
+            0.73,
+            0.02,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "split": "val",
+      "sequence": 427,
+      "rows": 534842,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 90,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 24311,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 2,
+        "median": 26.0,
+        "max": 59
+      },
+      "bbox_height_px_percentiles": [
+        32.0,
+        70.0,
+        280.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        1.0,
+        21.0
+      ],
+      "occluded_fraction": 0.6834149150590267,
+      "self_occluded_fraction": 0.5248428507858396,
+      "projection_error_px": {
+        "median": 0.4499275149553582,
+        "p99": 3.0163117094603,
+        "max": 3428.1815879559203
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        5.0,
+        177.0,
+        357.0,
+        357.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 68,
+      "unfiltered_nonoverlap_81_frame_track_windows": 239,
+      "unfiltered_81_frame_stride2_track_windows": 100,
+      "seconds": 1.5112943649291992,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.9880843314474181,
+        "on_screen_p99_px": 2.4651018334638866,
+        "visible_on_screen_p99_px": 3.7720489549648764,
+        "visible_on_screen_gt5px_fraction": 0.004052020221510438,
+        "all_gt5px_fraction": 0.0032944308786520132,
+        "worst_rows": [
+          [
+            565.0,
+            12.0,
+            5.0,
+            -3348.0,
+            212.0,
+            -0.84,
+            -0.06,
+            0.22,
+            0.0,
+            0.0
+          ],
+          [
+            565.0,
+            12.0,
+            6.0,
+            -32939.0,
+            4026.0,
+            -0.79,
+            0.08,
+            0.03,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "split": "test",
+      "sequence": 408,
+      "rows": 1015982,
+      "frames": 900,
+      "frame_range": [
+        1,
+        900
+      ],
+      "people": 57,
+      "joints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "all_finite": true,
+      "person_frames": 46181,
+      "complete_22_joint_fraction": 1.0,
+      "complete_joint_order_fraction": 1.0,
+      "people_per_frame": {
+        "min": 48,
+        "median": 52.0,
+        "max": 53
+      },
+      "bbox_height_px_percentiles": [
+        28.0,
+        41.0,
+        87.0
+      ],
+      "visible_joint_count_percentiles": [
+        0.0,
+        0.0,
+        21.0
+      ],
+      "occluded_fraction": 0.5654647424855952,
+      "self_occluded_fraction": 0.16141624556340564,
+      "projection_error_px": {
+        "median": 0.4064273757348624,
+        "p99": 0.864816506704048,
+        "max": 2.231176299152512
+      },
+      "z_positive_fraction": 1.0,
+      "longest_contiguous_track_frames_percentiles": [
+        434.8,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "tracks_with_at_least_81_contiguous_frames": 57,
+      "unfiltered_nonoverlap_81_frame_track_windows": 551,
+      "unfiltered_81_frame_stride2_track_windows": 250,
+      "seconds": 3.017970323562622,
+      "projection_diagnostics": {
+        "on_screen_fraction": 0.9931130669637848,
+        "on_screen_p99_px": 0.850137464990817,
+        "visible_on_screen_p99_px": 0.9689288350215889,
+        "visible_on_screen_gt5px_fraction": 0.0,
+        "all_gt5px_fraction": 0.0,
+        "worst_rows": [
+          [
+            316.0,
+            10.0,
+            8.0,
+            1.0,
+            1063.0,
+            -5.11,
+            2.79,
+            6.16,
+            0.0,
+            0.0
+          ],
+          [
+            60.0,
+            15.0,
+            1.0,
+            753.0,
+            1093.0,
+            -1.04,
+            2.79,
+            5.86,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ]
+}

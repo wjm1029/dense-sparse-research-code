@@ -1,0 +1,52 @@
+{
+  "step": 2,
+  "scope": "same train clip overfit",
+  "metric_note": "GT-matched pose diagnostics; not official JTA AP/tracking metrics",
+  "tasks": {
+    "0": {
+      "clips": 1,
+      "loss": 3.0149121284484863,
+      "count_mae": 46.75308609008789,
+      "matched_visible_2d_error_px": 581.6140350877193
+    },
+    "1": {
+      "clips": 1,
+      "loss": 3.180211067199707,
+      "count_mae": 46.790122985839844,
+      "matched_visible_2d_error_px": 581.5285087719299,
+      "matched_root_relative_mpjpe_mm": 672.9331771530567
+    }
+  },
+  "records": [
+    {
+      "id": "train_seq_85_f0244_t0",
+      "task": 0,
+      "loss": 3.0149121284484863,
+      "xy": 0.5263546705245972,
+      "xyz": -0.0,
+      "presence": 0.10162708908319473,
+      "in_crop": 0.6855207681655884,
+      "visible": 0.7220371961593628,
+      "router": 0.0,
+      "count_mae": 46.75308609008789,
+      "matched_visible_2d_distance_sum": 1226624.0,
+      "visible_joints": 2109
+    },
+    {
+      "id": "train_seq_85_f0244_t0",
+      "task": 1,
+      "loss": 3.180211067199707,
+      "xy": 0.5264239311218262,
+      "xyz": 0.16497832536697388,
+      "presence": 0.10161172598600388,
+      "in_crop": 0.6855980157852173,
+      "visible": 0.7219101190567017,
+      "router": 0.0,
+      "count_mae": 46.790122985839844,
+      "matched_visible_2d_distance_sum": 1226443.625,
+      "visible_joints": 2109,
+      "matched_3d_distance_mm_sum": 1508043.25,
+      "valid_3d_joints": 2241
+    }
+  ]
+}

@@ -1,0 +1,4696 @@
+{
+  "sequences": [
+    {
+      "sequence": "seq_0",
+      "split": "train",
+      "sha256": "cf22d0ee6e521fed6ece74d7824192f95259adaa7d3761521f6f5cfa8523360a",
+      "person_frames": 37126,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_1",
+      "split": "train",
+      "sha256": "a449d9a737212634d0c0efb337a0c8ace198f84f4448558f2fd9c9e10e46536f",
+      "person_frames": 32504,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_10",
+      "split": "train",
+      "sha256": "91c9deb0af64d34ea5bc17b32a0291e602cf9f36f4aecedc0d1f2d7753bea991",
+      "person_frames": 40584,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_100",
+      "split": "train",
+      "sha256": "4dd24020558a3a2068eadc6f8c36a1537ec05daf55be6b872b882096a5c950be",
+      "person_frames": 26934,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_101",
+      "split": "train",
+      "sha256": "e759e91a94b1c49ef60f52dcc55caba022a45835edd5aac83cb00adcab201216",
+      "person_frames": 18383,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_102",
+      "split": "train",
+      "sha256": "8920d843164b3a788faace6c72cde7cce035c76a1b72c4708f46d09033379aef",
+      "person_frames": 35617,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_103",
+      "split": "train",
+      "sha256": "de5c9e0f5f354fdb94951ceb58f94bab414771007074640fa12903c0725043c5",
+      "person_frames": 40261,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_104",
+      "split": "train",
+      "sha256": "f44feac16b149cbca4d88fc2e9d8453edb2d099c44d620ae4c518229bdcaf3fc",
+      "person_frames": 7952,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_105",
+      "split": "train",
+      "sha256": "f061728f6656a995fb450c174d3382ae1433aa7e62b285e55a4ab24d760da224",
+      "person_frames": 16950,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_106",
+      "split": "train",
+      "sha256": "f52850a1d45874324fa9bcd551f171e57a454ea861eb4d1cc0d82abef5944553",
+      "person_frames": 25993,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_107",
+      "split": "train",
+      "sha256": "6b6323f789fc4cd5ea633629c225d120cf9b0585fbbe8d8fcf3c425c759371cf",
+      "person_frames": 24521,
+      "video_frames": 900,
+      "annotated_frame_count": 853,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_108",
+      "split": "train",
+      "sha256": "03746a206f70dab68863e8a752669af98cd3ecc668463eaba89cd1e603ea7e8a",
+      "person_frames": 32849,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_109",
+      "split": "train",
+      "sha256": "a13327b16bec98a0ff0361958b5ad170120cb5c03a94f0696d8479f12c318d73",
+      "person_frames": 24852,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_11",
+      "split": "train",
+      "sha256": "1fd1760d2d65af22b3e3d2c31a3dfdb31dd93f8fa0281cde397aad47394af310",
+      "person_frames": 39983,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_110",
+      "split": "train",
+      "sha256": "08386b5f6b8f0069a68d00544d4767ea0638122649d43f4ecedb32e98df1302a",
+      "person_frames": 6412,
+      "video_frames": 900,
+      "annotated_frame_count": 845,
+      "annotation_frame_range": [
+        1,
+        854
+      ]
+    },
+    {
+      "sequence": "seq_111",
+      "split": "train",
+      "sha256": "44e14bc03654c7ca3fa05c7ab0aa8b67dcce207cf686537cb3fd3ee201b843f0",
+      "person_frames": 19918,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_112",
+      "split": "train",
+      "sha256": "d91aa45de516ae1f6384287a08fcf0c991ad68fbd66d9bdc843e4aa869d40220",
+      "person_frames": 26347,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_113",
+      "split": "train",
+      "sha256": "266a874e1820f5d8e097789e1bfbf2efc689316a6e4cec330030810a5ec0b690",
+      "person_frames": 28261,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_114",
+      "split": "train",
+      "sha256": "7a7fb0d706323c953fd08435dda57decc041bc49e76c0dcd31a5447c5706e515",
+      "person_frames": 33938,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_115",
+      "split": "train",
+      "sha256": "e1d0e8df71cb300b99239fe52cb500d74dd2e3cdb8227d40179bef87a5d1ae41",
+      "person_frames": 17330,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_116",
+      "split": "train",
+      "sha256": "adb0887bcaf84dc11784c55c26989f7640187ae18864148defef1d34aad92c64",
+      "person_frames": 41407,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_117",
+      "split": "train",
+      "sha256": "a85716732d9df784467f65554aee6d7155ddee4cfe9b750cdccaf1d16d8a2885",
+      "person_frames": 34091,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_118",
+      "split": "train",
+      "sha256": "42070cdbfd2e90c4bd71f975e2a174bf645b48e7cc5f94285999b713262d0a18",
+      "person_frames": 34210,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_119",
+      "split": "train",
+      "sha256": "1b0fa8c8d073c2dfd2353a59b48a20baaa69ae59ffb85fcc6fbe7d5dd89d74c6",
+      "person_frames": 30832,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_12",
+      "split": "train",
+      "sha256": "d3e8316e1b115bc278936f67037bb4b842b79f4a491277aff913726ff0d07b14",
+      "person_frames": 35450,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_120",
+      "split": "train",
+      "sha256": "02bd7988108b253499bee1296ac1d382b4afccb202458c2fa41a59534f897f99",
+      "person_frames": 27849,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_121",
+      "split": "train",
+      "sha256": "b93d3361fa53b4a3f70890454ba4f18942ce733550ab43ef2c99eb35cf2c6ba9",
+      "person_frames": 30181,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_122",
+      "split": "train",
+      "sha256": "58c503f6d7887e4a34052053b729530216f0ea2ec946cdce4b08de3aa2bc3427",
+      "person_frames": 17342,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_123",
+      "split": "train",
+      "sha256": "154361a82ff84a66dafab5b1904bbd60ee056b66cdd4578ffdc634c35b9ffd4e",
+      "person_frames": 13117,
+      "video_frames": 900,
+      "annotated_frame_count": 862,
+      "annotation_frame_range": [
+        23,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_124",
+      "split": "train",
+      "sha256": "07b54bdedc21d7d81957f671961b9fb14eb140be9ba800cd3e9111f8c09cd030",
+      "person_frames": 31080,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_125",
+      "split": "train",
+      "sha256": "402c40ec572bff7af15fbbb1d2493090e5fddcdc596b611a1175293240a0eff9",
+      "person_frames": 45072,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_126",
+      "split": "train",
+      "sha256": "c6f050c08603a6dafd15e0eacf3d608460ec8f730c61f64982929077f8c5e672",
+      "person_frames": 43655,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_127",
+      "split": "train",
+      "sha256": "329fd5b158a7970cbcdce77d01919b99bfeca05dce3bfdab3320c9ef5c6d3aef",
+      "person_frames": 55757,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_128",
+      "split": "train",
+      "sha256": "357d739e147bf60f629ea0a319a9de1522a67b6578714b28465d95c19b9f4606",
+      "person_frames": 31843,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_129",
+      "split": "train",
+      "sha256": "f194b772f123f48d03e3f32559d4bd7846fe6a52349e28508c3ddaa36ac96534",
+      "person_frames": 26336,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_13",
+      "split": "train",
+      "sha256": "a8bb5ea8e6ad5e0e59af6adf875fd5a4e662fcb5a76f4097a98fe0154ca5207b",
+      "person_frames": 35793,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_130",
+      "split": "train",
+      "sha256": "7f132ff41275bb4c947d36ac7f2fc77a17ccf773c46beeff12c95a8b419bdb9e",
+      "person_frames": 41919,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_131",
+      "split": "train",
+      "sha256": "3680a1fa71503dd990c45fb6e80c32d61e4b7c16621cb762526d70eb39cecce3",
+      "person_frames": 30290,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_132",
+      "split": "train",
+      "sha256": "fa5484a507ed9fe29dfa42c21be4b958df55420598c7609af2535bf0f268e9f2",
+      "person_frames": 33803,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_133",
+      "split": "train",
+      "sha256": "9c64c32a70c4ad012a487c71217703aa0ec5e960d7ab08721d58d182c455a955",
+      "person_frames": 31634,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_134",
+      "split": "train",
+      "sha256": "245b2d444dc44806ca3b35bdbe3544d874fc6a09879d6df541caff72d8c455a5",
+      "person_frames": 40077,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_135",
+      "split": "train",
+      "sha256": "0553b2667e13e9dd1e59f7273421c1459525df933a545e8415b458da94d94668",
+      "person_frames": 51469,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_136",
+      "split": "train",
+      "sha256": "13882a9540e7a6e47fa7a715d3238453911bc8c922f17f2497f833b491282b70",
+      "person_frames": 34328,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_137",
+      "split": "train",
+      "sha256": "70024f26be26769e21496c7003046f2f3b831e64bfb919afe741646ccc0d28b1",
+      "person_frames": 32599,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_138",
+      "split": "train",
+      "sha256": "f8ebdab7c2322000a88d1aeb0748fa833a75566e258b5392b1786d122fd4e6a9",
+      "person_frames": 33972,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_139",
+      "split": "train",
+      "sha256": "a51190102f7fe4da9bcc335c0931ec84fe36d31b846d60db854387439811e03f",
+      "person_frames": 27776,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_14",
+      "split": "train",
+      "sha256": "e6de1f2db046c2e782b8d179a68348d2bc51e95aa0e830602c4278a003ffb4a1",
+      "person_frames": 41626,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_140",
+      "split": "train",
+      "sha256": "7f20688fac5b5594f720d14666d5074b131ba1ee986f0018360f4cdcca5070f9",
+      "person_frames": 14085,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_141",
+      "split": "train",
+      "sha256": "126873cbaf36351b9f91769963ca7925ea0a36e65fa7af9c21a009bcf608e802",
+      "person_frames": 42674,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_142",
+      "split": "train",
+      "sha256": "38ba40c9977019abbd7e2b9b9c93b870f61104c1b6978af432cf6df8401099f7",
+      "person_frames": 31430,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_143",
+      "split": "train",
+      "sha256": "c06c92805d77bbd25fff8e97ae67f9208c04c9f52618023cb51a671d1f78d484",
+      "person_frames": 34195,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_144",
+      "split": "train",
+      "sha256": "bf85c170ebe97594dfd731665b82571e2677e031e5191337cc117344ba9a9076",
+      "person_frames": 19403,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_145",
+      "split": "train",
+      "sha256": "c0b70ec0da64ebe1cfbef74aaf7fbe51695aa7748842cc18f6c2855f1ebc780c",
+      "person_frames": 33819,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_146",
+      "split": "train",
+      "sha256": "bd3580dec95473f39b5573da277fd1ef9ce04166e86d338cc7c2ac89ab25c81b",
+      "person_frames": 37530,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_147",
+      "split": "train",
+      "sha256": "d2fbfa7821a68bf657905a254e5fb7c2856a824d8477be01e6eefa995162192f",
+      "person_frames": 22838,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_148",
+      "split": "train",
+      "sha256": "479457df99121f19742d09e0e3a5d7ae6e51c9f253faabe5a1165599cfdf524e",
+      "person_frames": 14876,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_149",
+      "split": "train",
+      "sha256": "8715f4f8ebdc426879740a76952436c28fe96a4fe289b2effb16e247d9b4b6e3",
+      "person_frames": 15735,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_15",
+      "split": "train",
+      "sha256": "3f9cafce34d9b7dd97b576507c70c11eabc1c196e432b2fcd2ed9cda167164f6",
+      "person_frames": 30430,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_150",
+      "split": "train",
+      "sha256": "cc36a95ea0fe8832739df84374a4ebff99c8bf57e66538bd98a69a2ab7eece13",
+      "person_frames": 15803,
+      "video_frames": 900,
+      "annotated_frame_count": 894,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_151",
+      "split": "train",
+      "sha256": "a518a9d07a9713ff1a38ee9324488b249ea210787730676892d43e29298774dc",
+      "person_frames": 35968,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_152",
+      "split": "train",
+      "sha256": "e6eac01962077757d4c7765bd71bf224172c10f302963bbda9f44db7d5900584",
+      "person_frames": 44885,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_153",
+      "split": "train",
+      "sha256": "1da0fafde8f1a891037cd7a2d6a8a443d013eccde2dedc93cc346ffd5dc7973b",
+      "person_frames": 38578,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_154",
+      "split": "train",
+      "sha256": "19d981d996115bc50f5506451d5e11b286451d48276ce4e49a037a1300e38289",
+      "person_frames": 23090,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_155",
+      "split": "train",
+      "sha256": "1c6e1acbc91f1c8a2ff5d4082990952422959902bc2a4955b6c7b5205b6f4f52",
+      "person_frames": 15964,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_156",
+      "split": "train",
+      "sha256": "1eff757846c09deb6a4e7b278d2e931b33f7b9092a3a38f5ea6f2cfd22489107",
+      "person_frames": 19187,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_157",
+      "split": "train",
+      "sha256": "25695045867e8b1123d2181f2632c3045d32e53299fc3c1e444e1329c108e6b8",
+      "person_frames": 36314,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_158",
+      "split": "train",
+      "sha256": "4090b2b88986fa74ea700a194794ebc15255d49a6bf7bab7adf286ac47a4f775",
+      "person_frames": 34177,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_159",
+      "split": "train",
+      "sha256": "7bbe48794e1e06b59a243985e1a4661a461f35fa303430c68c2f602a8fa2fc69",
+      "person_frames": 75596,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_16",
+      "split": "train",
+      "sha256": "c11069ff5d9c18bd67b4f1c0db994766c3d7397c3e52a00f19193d0eaf9bedd8",
+      "person_frames": 44040,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_160",
+      "split": "train",
+      "sha256": "7f393da1637036418771f84e9b700fc3c1715d45213703527aa8f098a166dfaf",
+      "person_frames": 39941,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_161",
+      "split": "train",
+      "sha256": "83275981fed6d924a92b8c743ec1b6f8300ae9d4e839b62bdeb281646db6fb2d",
+      "person_frames": 37783,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_162",
+      "split": "train",
+      "sha256": "892e80b6b8a1ae1dc2666a56c91dee4ac13951a374e2ff684785a24f5004a8be",
+      "person_frames": 34256,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_163",
+      "split": "train",
+      "sha256": "512f6646515c723a52f52cd49cd23d77a5e7f723abe5fc622c760e6fa3b51279",
+      "person_frames": 36332,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_164",
+      "split": "train",
+      "sha256": "b7f9255dafb9c235c62ba2de675582d45d6e1fa5a31e5a40a082024828792886",
+      "person_frames": 38746,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_165",
+      "split": "train",
+      "sha256": "6e14c52165a821239db639ba3e64534ebf26a845bbbe1ed8bdce8edebe150ccc",
+      "person_frames": 8101,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_166",
+      "split": "train",
+      "sha256": "0f84f6b18dbde07bf3025df02282a5ce5ef075122ce4d366400b64912978f2c6",
+      "person_frames": 28626,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_167",
+      "split": "train",
+      "sha256": "b35444191bc7206d98c3452b6eada1ecc29c0d4a582bffad51aa73d992d11ff8",
+      "person_frames": 21913,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_168",
+      "split": "train",
+      "sha256": "0152c5dbf89ac858e5f96a082f08a904f0d28a3136a9ef64313edbfb640c7c44",
+      "person_frames": 28743,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_169",
+      "split": "train",
+      "sha256": "3a3d51a7e492e03d9f81e1bcb3e4acf45e6c57085b1cca93e56b6e6d602b83d2",
+      "person_frames": 13935,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_17",
+      "split": "train",
+      "sha256": "30f993a09fa1ef3b0569797e36af8c256876739e2855722e60eece19312ec700",
+      "person_frames": 33020,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_170",
+      "split": "train",
+      "sha256": "08e8441d6d63c2f03902bf15063767d0890b2060a92b20d26f1720c64d21563d",
+      "person_frames": 41215,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_171",
+      "split": "train",
+      "sha256": "bb23c231bdfd4ff79b28aaafb0c13113b00b3db8017bc5ad1cb6f45685111ef8",
+      "person_frames": 27529,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_172",
+      "split": "train",
+      "sha256": "6a04e4437796f478d9303e7ebd9f9a08a1370273cd36666bd114a4555861cbf0",
+      "person_frames": 9223,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_173",
+      "split": "train",
+      "sha256": "95e570471eb868ba29bf433863d86444e5be35aab5133b2a08e72c93f9ac8b38",
+      "person_frames": 15480,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_174",
+      "split": "train",
+      "sha256": "d6307f7e37a81af30df71cca9a294b44265c5907fc3399dc9e16db1da4c1b324",
+      "person_frames": 12070,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_175",
+      "split": "train",
+      "sha256": "fb12c2da9e0fed38c714a623f19e6a04456a24717e9683385317ff9640374c56",
+      "person_frames": 22107,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_176",
+      "split": "train",
+      "sha256": "83ceae0dbbb951b0da4da3b9c6e2130f2ed3cb246b51cfff7a09b2dbad96a630",
+      "person_frames": 19909,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_177",
+      "split": "train",
+      "sha256": "17f18b5e94834bb8ee3fceaca90db76d98824677708aee0cd5d29299e38fdbdc",
+      "person_frames": 22107,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_178",
+      "split": "train",
+      "sha256": "b6c31d0144e156650d645adaceec509680f96f5fa94d9363321dc8cf99ab0486",
+      "person_frames": 40474,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_179",
+      "split": "train",
+      "sha256": "63060db339881554fb738fdaaa80714a8e61b6069cb655f6e890eea2cb224a6a",
+      "person_frames": 69534,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_18",
+      "split": "train",
+      "sha256": "2dbe5f2d6f9e0951f781e1cb12513bf9b69398bb1f8b1d9933dea51d3474509a",
+      "person_frames": 39226,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_180",
+      "split": "train",
+      "sha256": "787cf3ecce711055a2b44c64e443f60b5a8c331ba3e5c979a0052555cede3de3",
+      "person_frames": 28802,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_181",
+      "split": "train",
+      "sha256": "97f0ffb112fe55f5f84053fd3c9206ec46ae6fbf6e14fba2be07fc7c5596857a",
+      "person_frames": 99428,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_182",
+      "split": "train",
+      "sha256": "f8a1869c66c55f43885ec6fb8aece0e8658e0ce7543f6311cb85033803a1fd5b",
+      "person_frames": 32102,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_183",
+      "split": "train",
+      "sha256": "b4fc3079227a6273703f575fb9594f6f735ed06563eaf85c413e0cac17ce3bee",
+      "person_frames": 15176,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_184",
+      "split": "train",
+      "sha256": "2cc1678d305f7029f18dcf2c9f3eaa490c4390368684ebdc665c8027376f7424",
+      "person_frames": 14351,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_185",
+      "split": "train",
+      "sha256": "e5aee741402c817d805801b34b6df8995ccf413cd13bf8b17bc6ddf051d909d8",
+      "person_frames": 26531,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_186",
+      "split": "train",
+      "sha256": "c885ee9f448ae72b6fc35031d34650eb679ec449ce4dc8012ac26e8ddfdab46e",
+      "person_frames": 33595,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_187",
+      "split": "train",
+      "sha256": "d9a451356b9b266d69176e5c94fe347d654ca236cd80cb82e90ecfa2492ad926",
+      "person_frames": 46366,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_188",
+      "split": "train",
+      "sha256": "991724b5e5a2724a02cc9fcc14c11abe42325a0e4e303c8a0ba3ffbf33ecfa93",
+      "person_frames": 34305,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_189",
+      "split": "train",
+      "sha256": "3cdae98170b3b83f5b0962e8ee5b1adff46966f7db0a23cec56c6cb767e59527",
+      "person_frames": 32172,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_19",
+      "split": "train",
+      "sha256": "f2a97ac9e1a1929dfc28d6b14582537a42648331b5a4daec280969c48f0dc500",
+      "person_frames": 22638,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_190",
+      "split": "train",
+      "sha256": "32cea46a411d894a2566e5dec8d46d0c6a8fa1c6e45251e33574bf8910c0f7f7",
+      "person_frames": 18953,
+      "video_frames": 900,
+      "annotated_frame_count": 899,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_191",
+      "split": "train",
+      "sha256": "58f600e5e287d457b0f04e0e297830614a3f179165cbeaa5e6a823be609e8af2",
+      "person_frames": 15732,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_192",
+      "split": "train",
+      "sha256": "8982135f9a4ec31cc9bbf571df03a1cf7d6f40243f4bd884f835940b801d963d",
+      "person_frames": 20581,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_193",
+      "split": "train",
+      "sha256": "985b42febf3a5ae8631800eadda82d9d235aca2046f23575fab0a54c3c0c01f0",
+      "person_frames": 11399,
+      "video_frames": 900,
+      "annotated_frame_count": 888,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_194",
+      "split": "train",
+      "sha256": "36b98a88530f224f40a9bc8a17ada2755f0c52dd24837abe2bb640a44925c239",
+      "person_frames": 29244,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_195",
+      "split": "train",
+      "sha256": "2dcc66360c2caa48ad09a927604a1e367b5bc9a43d30e847c3d63e6efca78504",
+      "person_frames": 42921,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_196",
+      "split": "train",
+      "sha256": "212f074454d429b132733b379a53c8c284de6f6dc902f6da4b06dce9366e77df",
+      "person_frames": 45759,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_197",
+      "split": "train",
+      "sha256": "dd7d3cb513eb2f033649f8ecae847c459de55ae04c6b50f0e7eea6a0db0b22d3",
+      "person_frames": 59153,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_198",
+      "split": "train",
+      "sha256": "08811c77810b3270e0a226177f36f2a527324584eb462bf0d8c930d0377ff9fb",
+      "person_frames": 31624,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_199",
+      "split": "train",
+      "sha256": "066fbc40a6a03b91c134c8cc250a16dbeeb603161123000c8bb6c44256c7dca1",
+      "person_frames": 27455,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_2",
+      "split": "train",
+      "sha256": "b3a3364424ffa7b3021869ec841d4d3f939bdd4632c7f5aa9dab5b5dffda2e19",
+      "person_frames": 66960,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_20",
+      "split": "train",
+      "sha256": "d916435bbb791c295e5e1823d22075eec28b5a11725e5c95e9cbfe523f0b1840",
+      "person_frames": 42907,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_200",
+      "split": "train",
+      "sha256": "9ce37c723229a7840e07a59116d4b1735219a7363510f248ac6fc9e360480826",
+      "person_frames": 36022,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_201",
+      "split": "train",
+      "sha256": "c6b108b55bb9b42cd949e6d350339cde787210e54eb6e7fd898cfe0fe126ecbf",
+      "person_frames": 23191,
+      "video_frames": 900,
+      "annotated_frame_count": 897,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_202",
+      "split": "train",
+      "sha256": "0532af77ae5dcb5ba23007bf7f58e49a62578f173d65e91ef995cc907c37cddc",
+      "person_frames": 21860,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_203",
+      "split": "train",
+      "sha256": "9e738419b5e4c5c83778a8099bfc1e0b0895edaa8eaeeedcb58c83d999e513ab",
+      "person_frames": 20222,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_204",
+      "split": "train",
+      "sha256": "439f34c9c91d0d1479778a24416b29c4ffb628fe6d27a5aad2d6118a6f000ee7",
+      "person_frames": 38278,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_205",
+      "split": "train",
+      "sha256": "7cd690ddda6c3211b15f90b36ecc6a5c2316fa668fe6f3547d0e21c6bf3198be",
+      "person_frames": 46988,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_206",
+      "split": "train",
+      "sha256": "d543c76108e1954b18364fb96f70f7c0e1f5e6db24a7ef7cb7b68669df03f936",
+      "person_frames": 34503,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_207",
+      "split": "train",
+      "sha256": "4c93ee01b171e445913a2a7580025a9354238267e3c7889eba2fa37a4e630c0b",
+      "person_frames": 28088,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_208",
+      "split": "train",
+      "sha256": "9c55f3de8c6d56b4efc7b87a587abd47221fe1452f18334e90f535775cce8cf4",
+      "person_frames": 32118,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_209",
+      "split": "train",
+      "sha256": "197fc8fa3a4097769fca912c79108cc71cc794f98e5ed6e0cbc62cedc8af30fe",
+      "person_frames": 27206,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_21",
+      "split": "train",
+      "sha256": "942e6708d84f32b52424d33bb9470f8333b416e78396253a918a28f9d16f3eb0",
+      "person_frames": 15330,
+      "video_frames": 900,
+      "annotated_frame_count": 887,
+      "annotation_frame_range": [
+        1,
+        887
+      ]
+    },
+    {
+      "sequence": "seq_210",
+      "split": "train",
+      "sha256": "526d910202cfea9c9c8e98a12dda4e4690e2dab556a48445c70701c2bd2c6cc7",
+      "person_frames": 13275,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_211",
+      "split": "train",
+      "sha256": "e8a8cafd5b0ae5d6915c2ef7fe7eabae2237b86b34ca88083eb2f025e1e18461",
+      "person_frames": 39250,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_212",
+      "split": "train",
+      "sha256": "9dfc59c11e4134de47c5e9609d449830925e7c46ca0d1a826f008ce5dcf1011f",
+      "person_frames": 26134,
+      "video_frames": 900,
+      "annotated_frame_count": 898,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_213",
+      "split": "train",
+      "sha256": "388ad5dbaac34efb4fd0f118803f50f965990b3452a87028bce04483a9f8d03c",
+      "person_frames": 33116,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_214",
+      "split": "train",
+      "sha256": "11e68222826ad7a37a44504de435f8a5169a742d592d1aad7b138c0373483da5",
+      "person_frames": 14573,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_215",
+      "split": "train",
+      "sha256": "3c5dc62b9a3162a934d0280a7dac20d66f26359504ccc0be978ad4f159e87c1f",
+      "person_frames": 31609,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_216",
+      "split": "train",
+      "sha256": "ee661062c086d7c0445553933230882e8ac14c449a473a831eae75e35e9be150",
+      "person_frames": 36559,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_217",
+      "split": "train",
+      "sha256": "83999e04a4480d847992034c1453d84a7499b3899c1ad5b2915e4f4f542015c5",
+      "person_frames": 18660,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_218",
+      "split": "train",
+      "sha256": "c5fb143c58214b7b82beba8380a17e9d88ab7fdad9c5d60cf6986f078f5446f0",
+      "person_frames": 17909,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_219",
+      "split": "train",
+      "sha256": "d07ed1cc3dd56736ba2bee8c4cd1d27eca25bcd4ecbbd8986e568c4b1a10abea",
+      "person_frames": 15702,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_22",
+      "split": "train",
+      "sha256": "3d11d3cd2d827da2e72c1c8b7b8dfded8ea872fc3d7e0be9ef09fec09c059277",
+      "person_frames": 45785,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_220",
+      "split": "train",
+      "sha256": "1d75c8bf95a850ac2ec08d5f3f97594b792b12065b318b00094fb4abf361ee2d",
+      "person_frames": 10348,
+      "video_frames": 900,
+      "annotated_frame_count": 894,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_221",
+      "split": "train",
+      "sha256": "6fe23981c84079cf374379f596f2949809dcc34cc9b32173d92ce2586248c6a2",
+      "person_frames": 33162,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_222",
+      "split": "train",
+      "sha256": "0728e41aaa1131316c52e728ae1dcba207e359b98d6b31d34d28329ce00ca8b4",
+      "person_frames": 44240,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_223",
+      "split": "train",
+      "sha256": "6b2424203536e1b88d4f03f6c22e36e1cf89e434b4d61b132e3cb3184b48bef5",
+      "person_frames": 36054,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_224",
+      "split": "train",
+      "sha256": "8d252b150ade258ec308fa4cc807df1f3609438cd27fa21c530bc61fbcaa0d3b",
+      "person_frames": 16539,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_225",
+      "split": "train",
+      "sha256": "916b27f3d407fec30e8e72c06ab6345b3658a0712c0d1622eca51a1cfa026498",
+      "person_frames": 14495,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_226",
+      "split": "train",
+      "sha256": "a505d18885109a1b90e41fb62272e9e0227b10c1f91c5f60a53ad08e54c75413",
+      "person_frames": 14049,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_227",
+      "split": "train",
+      "sha256": "1d3c69912aec4cdd350b25e4a205bdb3db70a30a81228c06b8f1857d98fffbbe",
+      "person_frames": 38122,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_228",
+      "split": "train",
+      "sha256": "aab7d2989c301e3195a4eb248ac3031563f37e87330804721e88a5950f11b3ae",
+      "person_frames": 34670,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_229",
+      "split": "train",
+      "sha256": "b01ee586c5b6a8735fcdc6973bb7a43ce1c546536b28d0f3f65f67c72748867d",
+      "person_frames": 59575,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_23",
+      "split": "train",
+      "sha256": "652e4d416bea4937d992e0975af087ca25163d18db7fe1dec316f7b369a1dd53",
+      "person_frames": 21156,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_230",
+      "split": "train",
+      "sha256": "ffa1f41a5a12e4b22547a8bf3d10fc5375dde16b1392d25999c6db9d927022d9",
+      "person_frames": 30776,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_231",
+      "split": "train",
+      "sha256": "d3269d3068f121b373b3a5559309983744ff3acf695fa30bf9cdd75b85a56a17",
+      "person_frames": 29222,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_232",
+      "split": "train",
+      "sha256": "a7866b7b2a441a2f93e60c8d100e76e90043c3ca162ca3ab33e272efbc59f6f5",
+      "person_frames": 23987,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_233",
+      "split": "train",
+      "sha256": "ebe8350af81bfa2e50d2589e708084d14e5e746879559154d58286b17e6ec78f",
+      "person_frames": 28667,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_234",
+      "split": "train",
+      "sha256": "438bffe57ba5fb630312d672872b806c308a5ac2b458635ccf14ef63a8416198",
+      "person_frames": 33204,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_235",
+      "split": "train",
+      "sha256": "efb6c4aa93f3b00bc6d6611d3fff1aabfabba661ba4a437ceacb501178182604",
+      "person_frames": 9489,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_236",
+      "split": "train",
+      "sha256": "897ccc3f7939ffc44463a62407c51bad78a5a5795ce3479cf4fb4929e74db4dd",
+      "person_frames": 19447,
+      "video_frames": 900,
+      "annotated_frame_count": 895,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_237",
+      "split": "train",
+      "sha256": "23091458408513b8875761b78045e10291b72b40a503c62048f3e49d3ce092ba",
+      "person_frames": 21963,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_238",
+      "split": "train",
+      "sha256": "b83831b096db536882668a1323b1360e1c51ba8fbd51a5b9cc42061a990a7c49",
+      "person_frames": 23958,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_239",
+      "split": "train",
+      "sha256": "86fa1896fd514040fceaeb0fde23f8403f15ce49d1acb8ec21fb0ee283ddc5e0",
+      "person_frames": 10476,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_24",
+      "split": "train",
+      "sha256": "3c2495a2658783bcd777e6be82a5c6c083fe1b310b44254d404e391642045802",
+      "person_frames": 35694,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_240",
+      "split": "train",
+      "sha256": "438c5e2ca8ae7673a4e908c28b1ea8c6aea78b97265b8dde39cf79640d259d65",
+      "person_frames": 38617,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_241",
+      "split": "train",
+      "sha256": "b3de260756c80bd311e8555d797e3f893a1e4c96729881c6f6a8df3d81aec730",
+      "person_frames": 22238,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_242",
+      "split": "train",
+      "sha256": "fa0382a13748599fec9ac37818f5a0d74ed02aa92ba1d801872a3fcef64d98d3",
+      "person_frames": 6967,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_243",
+      "split": "train",
+      "sha256": "a1cfddc37ffddebc94ffa6222d549e836270f43e36ac7f4625582be04dce6406",
+      "person_frames": 24766,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_244",
+      "split": "train",
+      "sha256": "7e4745e7bbc84cabb103baad778b4ceb9f38392f6df49e279ed37f2413631864",
+      "person_frames": 11911,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_245",
+      "split": "train",
+      "sha256": "4a7416c55f3d1936a065a080a0e2503c7bdd3ccf2ef7261c0a26ecc2a4581628",
+      "person_frames": 15031,
+      "video_frames": 900,
+      "annotated_frame_count": 894,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_246",
+      "split": "train",
+      "sha256": "ed80242a8d0b3f0ca85bb69d82bad067bf939a5666fbfa8d91831919f9a54b0d",
+      "person_frames": 25364,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_247",
+      "split": "train",
+      "sha256": "637b0ce2731a4b9bddb82f8bb1131a8e088ca79289fab45934e270302ea37016",
+      "person_frames": 24025,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_248",
+      "split": "train",
+      "sha256": "a020bca71b7ff7802fb427659da6fb3a246c9f3b6e1d143cc37bdc5ef42a913d",
+      "person_frames": 45416,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_249",
+      "split": "train",
+      "sha256": "6f94977b6a3f0454f2a7ea84ec23c2c61ead7a16dcaa5b3b643298674abb4141",
+      "person_frames": 66076,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_25",
+      "split": "train",
+      "sha256": "0244afd5fb052b225896f78819b89ee4d34821b94d94f3c48d4a626a02759f7d",
+      "person_frames": 53230,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_250",
+      "split": "train",
+      "sha256": "5ecf993511a3766bb763100ea9d997d6f6e892a2547e80639986c188fb28a411",
+      "person_frames": 28097,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_251",
+      "split": "train",
+      "sha256": "9c8c5b01867ff039cf106d1a31194ea8d7413eada496fc090814fc75c8366cf4",
+      "person_frames": 93095,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_252",
+      "split": "train",
+      "sha256": "be33b123ebafa4b55e7deaa33770d0a5cabca72b4577aa3382cef69bf9860e9c",
+      "person_frames": 26703,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_253",
+      "split": "train",
+      "sha256": "f6a3d1f528bc28e829e8cdafc89f47bbb257cf8211e091cffc5cb0aceed231d5",
+      "person_frames": 31502,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_254",
+      "split": "train",
+      "sha256": "655fdd11dff6cd1d22fe4c1f30e517aa1dc2752f56d5b865bb1e0edaf63dbe9c",
+      "person_frames": 23534,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_255",
+      "split": "train",
+      "sha256": "df740bcf2dd43c5fcb6ab51d196bd18ab47f8d3c7fe964b87dabadccc919c46d",
+      "person_frames": 18463,
+      "video_frames": 900,
+      "annotated_frame_count": 899,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_26",
+      "split": "train",
+      "sha256": "cd97eb9fe5858bb4c99474924a48db3b4272a0a8d2adc7f83c21570f9a64faac",
+      "person_frames": 35757,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_27",
+      "split": "train",
+      "sha256": "906a1ca6871fbdba46192e586c27e45ba804059a2337b44ade448a0d1ea0cd0b",
+      "person_frames": 39139,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_28",
+      "split": "train",
+      "sha256": "4e931a8ef91669ee0a22d34712a86e1525160da1c56020c8e2e78eb4fcca36c3",
+      "person_frames": 26239,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_29",
+      "split": "train",
+      "sha256": "afec1c6d1cf5dd10ca966f9808e746a5958ed501f4be6631fa429472feac8c37",
+      "person_frames": 40763,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_3",
+      "split": "train",
+      "sha256": "afe3f4fd37fce2756f7f14c5379b8507af6466030dfdf9a5af4e2eca5dce5bdb",
+      "person_frames": 44167,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_30",
+      "split": "train",
+      "sha256": "f92c88005b4d302f3449848d0059d32ac72e23dcefbe35b8ada944a88c5b822a",
+      "person_frames": 37823,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_31",
+      "split": "train",
+      "sha256": "36da67b74a6e7fc35e7fcfabcacbbe617ddcd2f3480dd6632b916cb2ca8f8934",
+      "person_frames": 27102,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_32",
+      "split": "train",
+      "sha256": "dfa484b7880dcc8112e9800f42c7e636629236e5a8d7ec1e3b7082b3e0540dca",
+      "person_frames": 26799,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_33",
+      "split": "train",
+      "sha256": "bedf4055f81722944e517fb5744ec2a4a5663b74bba2865857c6b96e0556093d",
+      "person_frames": 22725,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_34",
+      "split": "train",
+      "sha256": "1b03fe696ad690d1e0ad6b8f7f42b9c1aa5ebfef9698a837bfd61ff6a46440b1",
+      "person_frames": 8360,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_35",
+      "split": "train",
+      "sha256": "5d34b2ae952b61ddf0ae23ced70f509acd5175708a2cf0e4dc65a93364f76213",
+      "person_frames": 27124,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_36",
+      "split": "train",
+      "sha256": "042ce2a80fc5a55469de4f395594b477ebc113434679cee9546f3f10a0ce5763",
+      "person_frames": 39717,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_37",
+      "split": "train",
+      "sha256": "c26f14310afc93d84e4e4228875d421243af3246896ea37fb1264a66791ddb9f",
+      "person_frames": 35765,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_38",
+      "split": "train",
+      "sha256": "4f76a1fc90e4d0090bff7c0d746e39649d44b36f1f12fa603f3724d117e592d4",
+      "person_frames": 25206,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_39",
+      "split": "train",
+      "sha256": "465d8beef9dd0b306c92e7ad6524fba4a7c7b32ff5617e84721baa03142bf9bb",
+      "person_frames": 31990,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_4",
+      "split": "train",
+      "sha256": "ac2d58e0fbd0d4c81032428691f76a9e20c3506360082a057642ddb5a5cce911",
+      "person_frames": 21542,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_40",
+      "split": "train",
+      "sha256": "1335779f2b9b04f8c07d846d55a8bcf18e7fc1524b76dfab7919d26c784b4a98",
+      "person_frames": 33323,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_41",
+      "split": "train",
+      "sha256": "81853857fb817db4fadd5e47bc25dcbc7b8c326a13c1e8f57415ad2ec35a74f2",
+      "person_frames": 17431,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_42",
+      "split": "train",
+      "sha256": "54703c3f1097f97c6ec7f70ddf1c6bc64e2db8d2d8bb2c8d647232bdf948c92d",
+      "person_frames": 26386,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_43",
+      "split": "train",
+      "sha256": "00d4c1d5f9d24fec40658d7334b42a4729fe2a921c5b750d8e2f4dbdc23b59f8",
+      "person_frames": 25442,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_44",
+      "split": "train",
+      "sha256": "09946f363c789df1e1d6ef7643b284684823abb5cd770eb9c63bc9328c214f12",
+      "person_frames": 45495,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_45",
+      "split": "train",
+      "sha256": "709e31fd66517c4449af3c298f7706bf116de5c48e9ca45a4997392cf82994cf",
+      "person_frames": 53278,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_46",
+      "split": "train",
+      "sha256": "3f735b2f63f713dd6bbb577766b03992d64e303532b091c75ab0a69fd979fc15",
+      "person_frames": 9473,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_47",
+      "split": "train",
+      "sha256": "6cfc0e42478242b61f7db4b9d3b512d4567b0cd120b71fd549898e4aa8efec22",
+      "person_frames": 18992,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_48",
+      "split": "train",
+      "sha256": "9007c0573bcb6a36205b393f2f095eeab9d95053003675c86873c8343ee4827d",
+      "person_frames": 33059,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_49",
+      "split": "train",
+      "sha256": "1d5a8bed57c8485e41e9e788116d8c09858e19e83f3c5d7e33785b2d52465173",
+      "person_frames": 24018,
+      "video_frames": 900,
+      "annotated_frame_count": 897,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_5",
+      "split": "train",
+      "sha256": "084aad2f73d2d26698e4cdb6254d46e01bbcdeba5d30db41397cd96607e9f188",
+      "person_frames": 27769,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_50",
+      "split": "train",
+      "sha256": "a7df2628713c63e11cdc9bc74df9575e87f08446ed7a31fd100d5a710c60396a",
+      "person_frames": 36048,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_51",
+      "split": "train",
+      "sha256": "a800cb1a0766fcea71775a4a204342331499c71b4eeae8e08c3aa5cb52dc4489",
+      "person_frames": 33233,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_52",
+      "split": "train",
+      "sha256": "467c98e4cf8a3142c518d6fbbca66961cd7cab07f0e167d30b2a81a27587bf0e",
+      "person_frames": 13600,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_53",
+      "split": "train",
+      "sha256": "91b37d1292939d0c1ae44906a8ebfa0bfb0955ba8573ec66892442ee104ca44c",
+      "person_frames": 24391,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_54",
+      "split": "train",
+      "sha256": "15d1899b683ade2609a1144be5e294b477e6225f126c4d429444e82e2b172f34",
+      "person_frames": 24156,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_55",
+      "split": "train",
+      "sha256": "805748f83ba4b64e16269a14b02e6f51b53b0abbece22f19fb317b59cc95056d",
+      "person_frames": 24540,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_56",
+      "split": "train",
+      "sha256": "d89700ec757be65b04c0e211ffc9f00435be81cd0bbd26dc550aa5fd561968a0",
+      "person_frames": 31153,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_57",
+      "split": "train",
+      "sha256": "aca9274e801cf2817851bf8b5e739d9a0d6aeb3f3cd4233adc9e8f421d21f150",
+      "person_frames": 20399,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_58",
+      "split": "train",
+      "sha256": "0c334bf0fc7345394660bcef81f0225bd0e6c92973483117cdcd7bea8fa73d2d",
+      "person_frames": 41723,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_59",
+      "split": "train",
+      "sha256": "a134b3ce7d97d72cbbbcfefa9a14ed26404a7776ca9ae2c34d7cf07f270d1171",
+      "person_frames": 36498,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_6",
+      "split": "train",
+      "sha256": "74e8f1839fa48bd6eed3c1f3663c145935e8b14eb764a9d2da4c7b1446d31998",
+      "person_frames": 43522,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_60",
+      "split": "train",
+      "sha256": "55d1247acd2c782239ecfd9aeb711ded4894a42b7a450d9f740b7464909cdbd7",
+      "person_frames": 70098,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_61",
+      "split": "train",
+      "sha256": "4b780a38aa57d088f973a6c91349f695b689f2bd868426eee80bc21bd42daa72",
+      "person_frames": 37228,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_62",
+      "split": "train",
+      "sha256": "4a1d8e35377820f1b2f2a9d10c206be22cb47beaf2e04e05e494e9e31515c1aa",
+      "person_frames": 26397,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_63",
+      "split": "train",
+      "sha256": "5662e6a92e91afd8c47f160a084cc41a3c992ce380488ab36b7f3940cb769142",
+      "person_frames": 29819,
+      "video_frames": 900,
+      "annotated_frame_count": 898,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_64",
+      "split": "train",
+      "sha256": "284e88086b526e4aa5beab00b00428821cef0bfd473a98d258b3535b2819e063",
+      "person_frames": 36873,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_65",
+      "split": "train",
+      "sha256": "f7b4e4c855a83f90de214e3f17dc588f3a0e25a6451cb3cec8d65ea7627b0a06",
+      "person_frames": 22760,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_66",
+      "split": "train",
+      "sha256": "c544d4839cf493bb3a53da514afa2137031549a7774daa87c41bf18072ffff3b",
+      "person_frames": 8068,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_67",
+      "split": "train",
+      "sha256": "32e70cb3c283bf85ab708a7745a1293615e5c97a7ccadb45c4599bdfffa2c143",
+      "person_frames": 14329,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_68",
+      "split": "train",
+      "sha256": "960a235250ddd7de29f00be29424b95661d42594e61e1c2710eaba3b2e95938a",
+      "person_frames": 34142,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_69",
+      "split": "train",
+      "sha256": "8ddbad3f47cfdfdbd406cf95d6c1ecaa854eb50bc00a756b17c0b3bc1df9dbac",
+      "person_frames": 28807,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_7",
+      "split": "train",
+      "sha256": "7f458965a51492db401a0d9841247e6b53d4c560562829cfef2ee1bfc85310e7",
+      "person_frames": 42899,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_70",
+      "split": "train",
+      "sha256": "156b759ee0ef3ed7f656d3c6eb66df1feacf4c57b1ebd1fbe72ef72d65dd5c98",
+      "person_frames": 22868,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_71",
+      "split": "train",
+      "sha256": "d6adeebb811c5ebe5525731b6dc41e8952e55d6aeb1d6163b2d1010351e69ee4",
+      "person_frames": 29803,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_72",
+      "split": "train",
+      "sha256": "bcbdea1e803e22e2dec4373031ecc4b2c76f2716883365febc36131380ba1835",
+      "person_frames": 22502,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_73",
+      "split": "train",
+      "sha256": "85dfda35396c0aea9a101f97df60547da8a6f60fc5acf200a335803e73784493",
+      "person_frames": 22878,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_74",
+      "split": "train",
+      "sha256": "abad6cc65f42aa96b510c5b16ec6895ab5ded706d1ccdd03d0f1ed5699bf34d7",
+      "person_frames": 39539,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_75",
+      "split": "train",
+      "sha256": "db9d18ddd9a2f0da65c6232eb89ebe8ece63ee88c5fe7705cb35fb6b6c8263bc",
+      "person_frames": 31406,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_76",
+      "split": "train",
+      "sha256": "d3ea59e199866c489d643b20d14417953ea0a4b5d28d3857bd0c31835b981b71",
+      "person_frames": 29079,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_77",
+      "split": "train",
+      "sha256": "c5e60c243851ab1eab7f9968d7c6ea4ddb36a9f24cc87365971d62f3f79193a1",
+      "person_frames": 20471,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_78",
+      "split": "train",
+      "sha256": "3100404384b82066fbf06a91964f5c35b58847ffc6896f636b3a01d434d93410",
+      "person_frames": 38592,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_79",
+      "split": "train",
+      "sha256": "99ef4d6e31314c6d3f1e1b218a555f922048a91f76a50fea3288c8e12f33d323",
+      "person_frames": 10504,
+      "video_frames": 900,
+      "annotated_frame_count": 849,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_8",
+      "split": "train",
+      "sha256": "0a3244a6c6bfd8c0f40247f67b64f1fe4907211f71b65f7c576d8b6d020ca01f",
+      "person_frames": 23855,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_80",
+      "split": "train",
+      "sha256": "d09134f1256f8de53e814f3f8d67d296d36dccf32d94d15b5137566c3d76ec56",
+      "person_frames": 42238,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_81",
+      "split": "train",
+      "sha256": "8e8a29aeb20e58c6bb57d2af32ccad89ef0705c36a7d10ef91f3ff904dd4e8ff",
+      "person_frames": 22080,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_82",
+      "split": "train",
+      "sha256": "ae72803b70ddb6682f5e9cdc4b7562aa71364d39543b8878ad94bc2fe2f11d07",
+      "person_frames": 26068,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_83",
+      "split": "train",
+      "sha256": "879ae0f7773911eee08bc42b9a5d829b8010c5d11536ddec28efb796f6790452",
+      "person_frames": 40634,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_84",
+      "split": "train",
+      "sha256": "9a6557bf75f5f8a072d2d045e904a30360b8af6b1268acf8faafff0ecbe0a902",
+      "person_frames": 32193,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_85",
+      "split": "train",
+      "sha256": "0c0db7e7328e5e732b63d2d498f0ed8edd8e8ac4a99a863bdeec0eecca44da52",
+      "person_frames": 30666,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_86",
+      "split": "train",
+      "sha256": "747a8ff67bdc933e3e107f3ebb76b7359a0f3c6c85975bd7895312cd55e94173",
+      "person_frames": 23282,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_87",
+      "split": "train",
+      "sha256": "956ef4874f0dde0b58cef18fdbdf8ce0352fa01ac95e532781c6dc988e197d11",
+      "person_frames": 41163,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_88",
+      "split": "train",
+      "sha256": "0ff6b25b274f7888441ddffaf07d8503647885c54402be538e3330d9c3252f52",
+      "person_frames": 25911,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_89",
+      "split": "train",
+      "sha256": "1f9b841943d580fcd1cd293f124558ade088fbe7be5ae1b30e76728c9b05a88e",
+      "person_frames": 28413,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_9",
+      "split": "train",
+      "sha256": "7aa4669cda4a75a7ea0289bbe854043eb9cdcd0c34218c138de38bcab02d9a70",
+      "person_frames": 26474,
+      "video_frames": 900,
+      "annotated_frame_count": 899,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_90",
+      "split": "train",
+      "sha256": "c87c93973f75f15485a6bf1b7a7d7d269ee9fb229e35779321a16b26f66d3942",
+      "person_frames": 27848,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_91",
+      "split": "train",
+      "sha256": "e92394f5d4d2576d6266ce3803f1a470294415095c0c56b74d78c7a72442f455",
+      "person_frames": 14468,
+      "video_frames": 900,
+      "annotated_frame_count": 849,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_92",
+      "split": "train",
+      "sha256": "68022a737025460e7bf0c3f1ac97f219fe0bc3476e1193171dd49afa5f8e033a",
+      "person_frames": 6546,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_93",
+      "split": "train",
+      "sha256": "fc2bbd2446df727685f24f87270b1189d828d1e19599d2d7e23afc243fa0de4c",
+      "person_frames": 24296,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_94",
+      "split": "train",
+      "sha256": "112b29a443995fdfdc2361fdb22d49404dab91973bed960d2ca7c025345ab4c3",
+      "person_frames": 25817,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_95",
+      "split": "train",
+      "sha256": "a221df5be1a8051e9c13027ec1115c5b98c75c23442d63cd49586e75d589b5a6",
+      "person_frames": 35214,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_96",
+      "split": "train",
+      "sha256": "5b36c35564ea8384329a64ce560d299ae6afe6bb12d6b43105b5269cd0d9b75c",
+      "person_frames": 26648,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_97",
+      "split": "train",
+      "sha256": "816ab6ad5a8f7d0b95f05fad02df6c9205f05a9c80b47e322e4994ff1f14acaa",
+      "person_frames": 36447,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_98",
+      "split": "train",
+      "sha256": "f3626c2488e58e39e0ad7d78cc02daa98a717f5709c580a2ee99aef4f64201ec",
+      "person_frames": 30032,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_99",
+      "split": "train",
+      "sha256": "c59a29427c925005c83f28362204c1906d581fe451cd5dcc96ef0ee5090d932d",
+      "person_frames": 12984,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_257",
+      "split": "val",
+      "sha256": "cf17f9356665544eecbe2612b451cc4718e85b45dc6ef84cfa94a6329ec5620c",
+      "person_frames": 31503,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_259",
+      "split": "val",
+      "sha256": "1047ff788a86fc5f7d8fa60d74df1fd431cf1228f10993225ee44e5f0014e1d4",
+      "person_frames": 42284,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_261",
+      "split": "val",
+      "sha256": "93f9dd6548b724bf7ea7084ff9f59aa20d23071e7b2f3c4e23eea42644c04fc8",
+      "person_frames": 23144,
+      "video_frames": 900,
+      "annotated_frame_count": 863,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_263",
+      "split": "val",
+      "sha256": "b821174e3f58b1ce3266d7c72ff245844aa35ca27eb27ec345c9478077723a4d",
+      "person_frames": 36468,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_265",
+      "split": "val",
+      "sha256": "ca3b7e020474f099874c70a4ad2c701ddf9e2e4fc59109a1a8c35494b65abfa4",
+      "person_frames": 25027,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_267",
+      "split": "val",
+      "sha256": "70aef2a90cf57295edbe7ffaab32d886890b646f7ebc3b3fcf2fce77920917e7",
+      "person_frames": 36126,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_269",
+      "split": "val",
+      "sha256": "32f232ed83647634d28691f5ee8f5b9d7a24d614f2904edfbc8c2510011867e9",
+      "person_frames": 30792,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_271",
+      "split": "val",
+      "sha256": "32ab6f5417e57e449ca1969ec461a84bb161452185f1bc92bb727346df416b01",
+      "person_frames": 33836,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_273",
+      "split": "val",
+      "sha256": "30d841a52cc4adb816e3da6a72bee73bb24fc3065105a7aeb0903c57548181ad",
+      "person_frames": 35348,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_275",
+      "split": "val",
+      "sha256": "903a5825d242d8f0e26106d2504ebf53a19dd00a9c064cb171ee96ab4b6da583",
+      "person_frames": 26163,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_277",
+      "split": "val",
+      "sha256": "2739e29be1ba22bffeed89b4cff36e4a89fd351dc6294eb0418d0fb4e084d929",
+      "person_frames": 19928,
+      "video_frames": 900,
+      "annotated_frame_count": 894,
+      "annotation_frame_range": [
+        7,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_279",
+      "split": "val",
+      "sha256": "8c35dbbe813333f2dbff944730e5da35124217b7556f605c232e9b693db162c0",
+      "person_frames": 19752,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_281",
+      "split": "val",
+      "sha256": "bac9f9343a815b0950704c038894b1f59bcb14f6b0a4100652e6dbf36b55e3b4",
+      "person_frames": 43726,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_283",
+      "split": "val",
+      "sha256": "c99ac7d032f63f300e768545ad7635df3e2bcf927a5b20122b61efcc52a6093b",
+      "person_frames": 33768,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_285",
+      "split": "val",
+      "sha256": "f1001279aee25bc50657e46974dee5d3097465038f79a7803758160f72336027",
+      "person_frames": 35746,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_287",
+      "split": "val",
+      "sha256": "9fb0b6c4ba80d360c32ea924c0f1b4bd8beeb75a44d80e5ff92e317410cb08a7",
+      "person_frames": 32285,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_289",
+      "split": "val",
+      "sha256": "1ed16a88c5a8f21fddbf3686ab5600e4df14b099832f83bc33482d24008841b4",
+      "person_frames": 23882,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_291",
+      "split": "val",
+      "sha256": "97d90e32f9323e5673faec20e1dffb26ef5300ba4336e3a64befe9b7449469af",
+      "person_frames": 27775,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_293",
+      "split": "val",
+      "sha256": "d09095cfbee09de6bcafe1efcebe0203cdb0a004da44ff0eac80f4c7bb295ea4",
+      "person_frames": 35874,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_295",
+      "split": "val",
+      "sha256": "25367db522b2411ea4eb1d6ac9b875021fbbd96e76e8f24a85360ba1e695a5c3",
+      "person_frames": 37672,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_297",
+      "split": "val",
+      "sha256": "0327ca86a9c67b494219d34952d943d3a9a76071e9fe24419412578aa89b5194",
+      "person_frames": 12001,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_299",
+      "split": "val",
+      "sha256": "461d1be736bc71d9f6316b60be5768a98a97c4872f0cbc21f6a764e1a62dd6ed",
+      "person_frames": 25888,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_301",
+      "split": "val",
+      "sha256": "94d56e0a47cedef676b3b07c51beecabd5291e14648106211bc3e6d465f94668",
+      "person_frames": 52019,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_303",
+      "split": "val",
+      "sha256": "8386b3450e4de6501e3f15d37242474f9d97330c00ce3348dcf4f87f66da330c",
+      "person_frames": 16959,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_305",
+      "split": "val",
+      "sha256": "7c3d05c2edbff83626f2f539cb35decaacae8f9b7485bb6e495cf337b4f0b230",
+      "person_frames": 18434,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_307",
+      "split": "val",
+      "sha256": "689baa01728f9a865b477cb954f3950d4139056d74aac0a262fb435c7ad1847e",
+      "person_frames": 33300,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_309",
+      "split": "val",
+      "sha256": "2296b42d8241530058ee10fd73c6536740b32c16d691a894d91b7334efd7cda5",
+      "person_frames": 17371,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_311",
+      "split": "val",
+      "sha256": "a5db45edb042936671b9f2175ed0c1fe303057ed96b06b4457201cab75ef8336",
+      "person_frames": 29780,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_313",
+      "split": "val",
+      "sha256": "c56a68d895f18f45b086b8937aa19c52b5d2d67613e89741b2fc8254fd228631",
+      "person_frames": 21326,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_315",
+      "split": "val",
+      "sha256": "5b5a500e24cbb8961195d5f844edc0839da1295627bffca2f02d62641c06725f",
+      "person_frames": 35916,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_317",
+      "split": "val",
+      "sha256": "c070709bf1f927fa2146f3d9caff78c1fe313072f3b2dd7d169b25874051e40a",
+      "person_frames": 39080,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_319",
+      "split": "val",
+      "sha256": "11100c833fee6ed0ba68040d7806be518c1780e1740df45a671d13a6eb0c5d69",
+      "person_frames": 35299,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_321",
+      "split": "val",
+      "sha256": "371af5f7dad8a179b98cfd3d7d14214293f791a28a7ef8330c4e9bb59fff452b",
+      "person_frames": 21699,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_323",
+      "split": "val",
+      "sha256": "44ccff58752588ad993ad9ab5324092a7d82a0b680fc480236b54927c9de7e1c",
+      "person_frames": 16848,
+      "video_frames": 900,
+      "annotated_frame_count": 890,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_325",
+      "split": "val",
+      "sha256": "d00cd590f390e3d1e35e8a14553a528fe55f736ab86398bbb532667368c57193",
+      "person_frames": 24354,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_327",
+      "split": "val",
+      "sha256": "b82ca2fc621fe57429c6b2adaa3b815627eb9a62e68e5ebb3f42088180b357c2",
+      "person_frames": 34495,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_329",
+      "split": "val",
+      "sha256": "45762512231ffd98b1c1c295c14f5eafb0a706632b2e6a32943943904a8fbef2",
+      "person_frames": 25361,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_331",
+      "split": "val",
+      "sha256": "9da6b49e6b66d2f8ba8e86d337cf02c60a24d003d7161a6c0f1baf3cf66626b0",
+      "person_frames": 28814,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_333",
+      "split": "val",
+      "sha256": "db871bef7d2cd60510898cb274a54c4133efd83b1b43b451fc31eabc7b05dce5",
+      "person_frames": 19079,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_335",
+      "split": "val",
+      "sha256": "5b3563098a9fd5dea3bd8afe3979ddf0854d4ebad7c2deaf3535258b26691f31",
+      "person_frames": 14209,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_337",
+      "split": "val",
+      "sha256": "0624010f6a99c2ac3b3f98bb4c93af767cf84ad8e1a5085b4161e1e42699c2da",
+      "person_frames": 23565,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_339",
+      "split": "val",
+      "sha256": "177b591f1d3776335f015002fdc906c53cef4db5c72006467b3c5fdc30e0a334",
+      "person_frames": 42716,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_341",
+      "split": "val",
+      "sha256": "a51cc5a756be909cf5783aaa94fdbcf8a38b2570c6d77ffe940c3d97204400dd",
+      "person_frames": 32873,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_343",
+      "split": "val",
+      "sha256": "3e0befa0f01b07a9118d205f8d9964c2538a9cd830f2b2420df14ef6727b8f98",
+      "person_frames": 41761,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_345",
+      "split": "val",
+      "sha256": "08027343f00f84d995c0645efea727ef737534c5d85b7d13ad863d9ca6f688f9",
+      "person_frames": 26850,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_347",
+      "split": "val",
+      "sha256": "a8c4ffc0ce43892fce2f84066058448b45e251dc5b9dafd59f8c500a7e6aa145",
+      "person_frames": 19343,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_349",
+      "split": "val",
+      "sha256": "5ae0ec9a3d86cb718aed832963eba0a723f6f0d9dc25855ad2a784cdabf28f94",
+      "person_frames": 28105,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_351",
+      "split": "val",
+      "sha256": "6b87113e0ed76e886bd8b32aa622970a419383fecd885fe81ac9e4b6c1facb25",
+      "person_frames": 35910,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_353",
+      "split": "val",
+      "sha256": "47b248fd28c8f69b80bdcb84198301547b4974fe4e3e4d5255ba5253401d48cb",
+      "person_frames": 39318,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_355",
+      "split": "val",
+      "sha256": "30ac0b1f1b8edf243d82e4dfa1ad9fa6fc5a15820ae10ec61b2e2778e295f3d9",
+      "person_frames": 11794,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_357",
+      "split": "val",
+      "sha256": "e46602e9906f4c1b58105e02620a3e8bc35b6d7c3e2d0d8eb5847ed2c3b7207a",
+      "person_frames": 21846,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_359",
+      "split": "val",
+      "sha256": "a44c6aa60c59f85eddfa0eb8825f41b6f103d13119d2e4a855437d6421c6a23e",
+      "person_frames": 41631,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_361",
+      "split": "val",
+      "sha256": "36e68719df62ec987429f6c069ba05484d5c1bfb82c70a805ee1d97d1e9bdd61",
+      "person_frames": 16704,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_363",
+      "split": "val",
+      "sha256": "6db58896829126cc72194d42ee69de5aede274bc4c2098a326328633760386b3",
+      "person_frames": 18174,
+      "video_frames": 900,
+      "annotated_frame_count": 896,
+      "annotation_frame_range": [
+        1,
+        896
+      ]
+    },
+    {
+      "sequence": "seq_365",
+      "split": "val",
+      "sha256": "10c98dd34a91a17f990241e00685a0807a8ac2efea02ee40871384f92e949d59",
+      "person_frames": 25020,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_367",
+      "split": "val",
+      "sha256": "6c9f9de43fc8a33e597bd04370320b049cb05030a5fb56906a84cbfcaca7dfa1",
+      "person_frames": 21601,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_369",
+      "split": "val",
+      "sha256": "50dbe693922a272e69e3d42ddaee96be5b1bebabe26d35a163a11ddda673e12f",
+      "person_frames": 27105,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_371",
+      "split": "val",
+      "sha256": "fc9702be00dc4671bfae227e4bfdf80fba32ca97033bc30c672e2e05328f7fd0",
+      "person_frames": 21634,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_373",
+      "split": "val",
+      "sha256": "295784cfc3ed9c52b359d334af673c9b30416b6224c919367087dca30783ae8d",
+      "person_frames": 30623,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_375",
+      "split": "val",
+      "sha256": "95acb6d73c41c5596c2bbbc9cc81b6f9bc1cc9914d689982c2ef3ba5ea073745",
+      "person_frames": 32161,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_377",
+      "split": "val",
+      "sha256": "95fe3f61231cf1da75f21b19f346d7e4f2b299ff16a473c0fe0c22a52ebed972",
+      "person_frames": 28581,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_379",
+      "split": "val",
+      "sha256": "bfbae00e678ade7b16b1859990bceab954bcfdc0a5e4e13efd45bdb80ff5f2d6",
+      "person_frames": 8455,
+      "video_frames": 900,
+      "annotated_frame_count": 885,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_381",
+      "split": "val",
+      "sha256": "ee4a07534e08d70382b9495d64295b9c262017bc832019363bd8fc8035c674ed",
+      "person_frames": 35141,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_383",
+      "split": "val",
+      "sha256": "35cf7fe082610365bbbd3a29e86e0b945ef35d3ab77790b1e568edb00064e8ec",
+      "person_frames": 55592,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_385",
+      "split": "val",
+      "sha256": "278bde3e17a17d1bc82b9c30e11696e7fa945c36cd1c126412495128b3ff6866",
+      "person_frames": 22603,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_387",
+      "split": "val",
+      "sha256": "4411561c4987bacf22f7bcba528b01e0626d34aecee6ca0a343d86348afdfa02",
+      "person_frames": 34929,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_389",
+      "split": "val",
+      "sha256": "8359f4356caefb2b1635d2f21333aa723428a55fecb7523ed79a4cf45594fdaf",
+      "person_frames": 34042,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_391",
+      "split": "val",
+      "sha256": "00a274ad3f9ed61383ba03035d804706d6fb5bd019a0663c48f44348ed5f9dfa",
+      "person_frames": 48398,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_393",
+      "split": "val",
+      "sha256": "67a859c9eadc67fc2b02737b1aaa8bdbb75b6b3155982b3177ccf44062bd430d",
+      "person_frames": 33446,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_395",
+      "split": "val",
+      "sha256": "ac8c5399ac8e0b139e8d5ef928b0a876dce61b739845ba5cfd3cb0174493c1a2",
+      "person_frames": 23147,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_397",
+      "split": "val",
+      "sha256": "6d4010f0a4808d9679eadd3d32e4e50cc88420b8960ce3fbea7f6eb1b38f7074",
+      "person_frames": 40300,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_399",
+      "split": "val",
+      "sha256": "8f6dc33e98517bcd767178f86044b102205e4037bf81c0293f1ab2fec519d34b",
+      "person_frames": 32310,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_401",
+      "split": "val",
+      "sha256": "a1514ea838ee0cd9fd0fbe859654f2c458ebd3bb2e3407df5a95cbee1653e8bb",
+      "person_frames": 35887,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_403",
+      "split": "val",
+      "sha256": "9a64ea9b32d74c1d0dabc891b39f8dac26deff75d58b7482d2d149287115d439",
+      "person_frames": 18526,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_405",
+      "split": "val",
+      "sha256": "45036fea5c4036524e4062286aeefea4939a61c895fbae7e168d1ab1a145b5ad",
+      "person_frames": 17154,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_407",
+      "split": "val",
+      "sha256": "fa9c4298679f3b1926a44c3a7cd8ce5dae6587f88054e653f315f7c90383af29",
+      "person_frames": 33863,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_409",
+      "split": "val",
+      "sha256": "e527c2f1cdfcfc85365c1a8796a6b1d4cc718e72702635eb96bee2e2ee5729fd",
+      "person_frames": 34157,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_411",
+      "split": "val",
+      "sha256": "370419f41b57f4587680c420ca6258092e8a26a80ba11032aaf3773b5b400528",
+      "person_frames": 14792,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_413",
+      "split": "val",
+      "sha256": "129dacf0f44307be13da92ed84fe9429cd72996e20b40142f85448f0855cb0d9",
+      "person_frames": 33799,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_415",
+      "split": "val",
+      "sha256": "c5d3e9b6f92f141be2f9b9c261e5604af6b2e737afff62fffb78721a3d5a11ba",
+      "person_frames": 81954,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_417",
+      "split": "val",
+      "sha256": "def53ecc9d7b842062718c7fd3a568dd03517b104a0d31addcf9dbfbadd75d1b",
+      "person_frames": 41656,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_419",
+      "split": "val",
+      "sha256": "d85f1b063941a01716743c885fd396a6866e3eb6fb1cdf2fb71bfd5dbba408ca",
+      "person_frames": 34880,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_421",
+      "split": "val",
+      "sha256": "53ff3ceedca7528240f3616646cd93c87f5e3964039d174f8468b73cd032d2b7",
+      "person_frames": 7241,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_423",
+      "split": "val",
+      "sha256": "e35fec897485722ed3c8c09a6f43c8c61cef0fcaae63fbec6e699c7a860d28f6",
+      "person_frames": 23440,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_425",
+      "split": "val",
+      "sha256": "aec56402670f09590eae7e21e51d5a89763c06c5980d6c8c29850de8a2cd22f7",
+      "person_frames": 13608,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_427",
+      "split": "val",
+      "sha256": "24bbd421fb6e859554ff5119652175bc96b497e0aa99d972a1fa0fc83b5a3c75",
+      "person_frames": 24311,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_429",
+      "split": "val",
+      "sha256": "edacaf2f4c144758b4ad05e6f2ef86407d37c7be5e2b8e31588c9f27a877fb2e",
+      "person_frames": 20275,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_431",
+      "split": "val",
+      "sha256": "44a128a400bddc376a35fe21e1473f3f762f164949af49e9f43a07aaa72a90c5",
+      "person_frames": 11545,
+      "video_frames": 900,
+      "annotated_frame_count": 886,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_433",
+      "split": "val",
+      "sha256": "17a45c94901135de06f1906b222f0e2617cbae6ec522cc6f673c1ef2bc79bb50",
+      "person_frames": 27757,
+      "video_frames": 900,
+      "annotated_frame_count": 897,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_435",
+      "split": "val",
+      "sha256": "0ac4f4fba82142517a74385cd0ec43b61fa973aeeb2bdf79d7791f594924e819",
+      "person_frames": 67533,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_437",
+      "split": "val",
+      "sha256": "bfe14cedc95c76e5d7d30884983bfe63857c3612bc95ec583bdc8d8572a6f3fb",
+      "person_frames": 99967,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_439",
+      "split": "val",
+      "sha256": "26422f5702bf05f7088f6edf552abfb85230090749a86a162cdea1b1e920419c",
+      "person_frames": 14708,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_441",
+      "split": "val",
+      "sha256": "62ff5cbf9ead463d0b3c38f59a8faeb2ac0aab923558cdb52d94158f7a8ff628",
+      "person_frames": 24250,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_443",
+      "split": "val",
+      "sha256": "e17390b3120c9265075a1f019c8a8025a45dc51486c707eb553305e20007eaf1",
+      "person_frames": 43178,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_445",
+      "split": "val",
+      "sha256": "7fbb3a90c2a305e5373a261544edf8f5039b35d7f56a870243b89fe4ed8b5ba6",
+      "person_frames": 32003,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_447",
+      "split": "val",
+      "sha256": "355927e456fd83b662af8d5fa870c5a8558c9f575858c3652d0cdc1f0a77d2b4",
+      "person_frames": 12925,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_449",
+      "split": "val",
+      "sha256": "83602aaab302b5798a7271c65ab7e3175fe4704de8436437da816ad141486a06",
+      "person_frames": 7737,
+      "video_frames": 900,
+      "annotated_frame_count": 863,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_451",
+      "split": "val",
+      "sha256": "3c693915721f5e575c1506b1bb78bae8ab65eb467a04b6c8bae67d0bb7e28612",
+      "person_frames": 44176,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_453",
+      "split": "val",
+      "sha256": "01e45f22756db0934c2d4b6429df112a416210993647b28bb0f14814b116fea0",
+      "person_frames": 65287,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_455",
+      "split": "val",
+      "sha256": "0cf9e344cea822febf3d4d87b295a84ee913a18fdadcd7bb123e93621bc3b158",
+      "person_frames": 22683,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_457",
+      "split": "val",
+      "sha256": "4b32fe8a01c8ec61ae7dc28ff6fc91a73bc6355402b17e2e9fb755a193036446",
+      "person_frames": 26583,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_459",
+      "split": "val",
+      "sha256": "93d15844f36c2499660c22dd649665b3b9a59e2bc3840fda9872b6768a35fce6",
+      "person_frames": 20007,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_461",
+      "split": "val",
+      "sha256": "40f26ef69695bd2bd2fd36ad9bcbfbc4d4ba4a88862a0501025389ea72d0b8b4",
+      "person_frames": 47136,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_463",
+      "split": "val",
+      "sha256": "937cae6b596eeb914650631a26cdb3554a12667b85ca329e1d9b32964ebc8f25",
+      "person_frames": 30376,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_465",
+      "split": "val",
+      "sha256": "2b062f9ade7d0a8ecf00ca2718e508815c14be2c4df70bf2d25ec2cb9dd23cac",
+      "person_frames": 20953,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_467",
+      "split": "val",
+      "sha256": "819266c3e645ad69d40ce09646c1a565225082240fe5c7e2c82d518927270568",
+      "person_frames": 40297,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_469",
+      "split": "val",
+      "sha256": "232d41538dad29517914a6cdb1eb8403075bb0443544d29e02460ad46666da96",
+      "person_frames": 34266,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_471",
+      "split": "val",
+      "sha256": "ef57653525a7a45fae818e98f71c96dadc61a18f71ef7585f5ea55028976796c",
+      "person_frames": 33669,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_473",
+      "split": "val",
+      "sha256": "6e8a8a04da6cafa78bf8b7d47cbe780d1e6267255387ebe6d5dc6d73bd1a7260",
+      "person_frames": 17429,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_475",
+      "split": "val",
+      "sha256": "013ab680776d63cfeabb91a4ec9de748548ff7dacc863eccf5257f360ecde184",
+      "person_frames": 18582,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_477",
+      "split": "val",
+      "sha256": "b9169d0e039d02d9776f59e5059b679e76b2fc717499332edba3204a714cb2a2",
+      "person_frames": 34978,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_479",
+      "split": "val",
+      "sha256": "3487cbd4fa25cbb63ee1c4f70104045f002decebf9e80763e00a1be95fed0a69",
+      "person_frames": 36189,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_481",
+      "split": "val",
+      "sha256": "c2cef6a1999c3cfbf05c3dac90e82f1d338a92b5334687beeb269c25f6f9eb6a",
+      "person_frames": 17646,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_483",
+      "split": "val",
+      "sha256": "a3651438a7d998b153bf9f35f6bd9bcd4df295623624b4e8048945c2e64d3e79",
+      "person_frames": 36077,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_485",
+      "split": "val",
+      "sha256": "735be20f50ba45d74b35da711317a03a233350d6be43ca4f37674b3cb1d6fe99",
+      "person_frames": 64881,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_487",
+      "split": "val",
+      "sha256": "83b5a25ce02e7e0b6a210cd2ddd248b1b5eb4a53902820c94e4b604e0fd41cdf",
+      "person_frames": 29102,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_489",
+      "split": "val",
+      "sha256": "bdd651fd13727815fc438ccb5ac53865906927c7bc6f32af3070266ecc725d14",
+      "person_frames": 27710,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_491",
+      "split": "val",
+      "sha256": "39399c87a9b7b10bcf9c59984db560cb05135ce21f54550e062f8d93812d256c",
+      "person_frames": 7604,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_493",
+      "split": "val",
+      "sha256": "82940ad28e4e763bf8dcf5e851b9a01c4bd8b0a57b4eb91fdba915b959e97956",
+      "person_frames": 18702,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_495",
+      "split": "val",
+      "sha256": "b2ee60907aa5649a9cef6191d1e94c39e0821d60fc0c001656857303176f965a",
+      "person_frames": 9954,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_497",
+      "split": "val",
+      "sha256": "6709359ac9eb309a7f0a02a4f908512b56fdb17f96bd0eb35d77dc317f1b3255",
+      "person_frames": 17180,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_499",
+      "split": "val",
+      "sha256": "8cae7a199f7073219d199d5e7eabf8ddab0c35d0c4398eef7f2602d84957b1d4",
+      "person_frames": 21690,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_501",
+      "split": "val",
+      "sha256": "e073084ac61dff39d4dd4af1535c75ea5cc90f3d333a547035e7cfd685be4d58",
+      "person_frames": 11225,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_503",
+      "split": "val",
+      "sha256": "d83c0a72268b80bb588c0131a48ae3f8f819dcaa689c2356d402fee9f3409632",
+      "person_frames": 24906,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_505",
+      "split": "val",
+      "sha256": "a474a3ad27d22d03860f0aa18deb0f1208d3243f06e60dd73e612f8342a23971",
+      "person_frames": 70856,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_507",
+      "split": "val",
+      "sha256": "28b12e84450fe8f351db32f4d8870d64f31c5a0bdf3e630aa65f813d36099dea",
+      "person_frames": 95463,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_509",
+      "split": "val",
+      "sha256": "a0897a14dc2f397a10234b6707c27b87950ef43bb8e18956454625e622461a53",
+      "person_frames": 27084,
+      "video_frames": 900,
+      "annotated_frame_count": 900,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    },
+    {
+      "sequence": "seq_511",
+      "split": "val",
+      "sha256": "0f68bb379d55d02e67fedf0c891aa7b0e24764a161fc34f5a1cdc7337328b381",
+      "person_frames": 14587,
+      "video_frames": 900,
+      "annotated_frame_count": 895,
+      "annotation_frame_range": [
+        1,
+        900
+      ]
+    }
+  ],
+  "total_clips": 41472,
+  "positive_clips": 36727,
+  "empty_clips": 4745,
+  "max_clip_tracks": 111,
+  "max_people_per_frame": 72,
+  "track_count_histogram": {
+    "11": 1138,
+    "10": 1287,
+    "8": 1704,
+    "7": 2018,
+    "9": 1544,
+    "19": 530,
+    "21": 403,
+    "22": 429,
+    "14": 872,
+    "15": 753,
+    "12": 1027,
+    "16": 716,
+    "13": 952,
+    "18": 595,
+    "17": 589,
+    "6": 2235,
+    "5": 2594,
+    "4": 2964,
+    "3": 3183,
+    "1": 3495,
+    "2": 3317,
+    "0": 4745,
+    "20": 475,
+    "42": 58,
+    "43": 63,
+    "41": 70,
+    "23": 385,
+    "26": 283,
+    "27": 253,
+    "31": 190,
+    "37": 70,
+    "33": 154,
+    "30": 187,
+    "29": 224,
+    "35": 138,
+    "24": 354,
+    "28": 217,
+    "32": 188,
+    "48": 15,
+    "34": 161,
+    "38": 64,
+    "49": 21,
+    "25": 315,
+    "39": 83,
+    "36": 110,
+    "40": 57,
+    "46": 32,
+    "47": 19,
+    "54": 4,
+    "63": 2,
+    "56": 5,
+    "50": 12,
+    "62": 5,
+    "45": 46,
+    "44": 31,
+    "52": 10,
+    "53": 10,
+    "61": 5,
+    "51": 19,
+    "57": 6,
+    "58": 7,
+    "59": 6,
+    "55": 8,
+    "65": 3,
+    "68": 2,
+    "64": 4,
+    "66": 2,
+    "70": 1,
+    "69": 1,
+    "75": 2,
+    "73": 1,
+    "74": 1,
+    "67": 1,
+    "99": 1,
+    "111": 1
+  },
+  "elapsed_sec": 212.78850531578064,
+  "source_script_sha256": "d940f9bdc8d072eb11521118bbbcbc9f676b25202dadf72d8a290320b7b91734"
+}

@@ -1,0 +1,131 @@
+{
+  "eval_dense6_opsd_clean_val_20261020": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/eval_dense6_opsd_clean_val_20261020.py",
+    "sha256": "7b927899ab6e9c123798ee8c37423d04951da930bcdbf0398bd6da00f87a26ef"
+  },
+  "build_wan22_albedo_flow_target_cache": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/build_wan22_albedo_flow_target_cache.py",
+    "sha256": "09caf766be7ffba79bd2713daa0b2575f57431c37ae5ecb674102ee1817d64a6"
+  },
+  "wan22_cache_integrity": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_cache_integrity.py",
+    "sha256": "adc812968010ebd14655d7b7366ca59af61c758d6b0341f207f0f8b678584d71"
+  },
+  "infer_wan22_dense4": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/infer_wan22_dense4.py",
+    "sha256": "cbfbe6b08d5b9ed278f929051649cb2b2601c30e988edeb23dcada3b88dd685a"
+  },
+  "wan22_task_router": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_task_router.py",
+    "sha256": "cf71a60ea9ea8e8528b797030a57eeed0e826e0cabe0c42519543bd828e0a77a"
+  },
+  "wan22_dense4_checkpoint": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense4_checkpoint.py",
+    "sha256": "50db39357f6202982beca3562fcb84b9452c6fbfcff386edadc677fdf219b454"
+  },
+  "train_wan22_dense4_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_dense4_ddp.py",
+    "sha256": "356a34a5e00fbc12d0892daabe1747dc4ea113a2f379efc624d7a2f1ea89d37c"
+  },
+  "wan22_masked_loss": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_masked_loss.py",
+    "sha256": "f2eb5065a3835ae17b57b0ed8277b710e2364d30f7bd6cae29421b36644db792"
+  },
+  "wan22_task_sampler": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_task_sampler.py",
+    "sha256": "b6d9c249832edb99b1beea07b29c5035fa0cec55463ea713f02c7b574763dc03"
+  },
+  "wan22_dense6_task_router": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_task_router.py",
+    "sha256": "bd9e5eeac629230de9361260df2b177b80bf789016c41f38be5d078405610c75"
+  },
+  "wan22_dense6_long477_opsd": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_long477_opsd.py",
+    "sha256": "235d1878aaf416dcfef36d0faaab69a410af2cfd6eca2f95cac1a572b964f32d"
+  },
+  "wan22_opsd_prefix_cache": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_opsd_prefix_cache.py",
+    "sha256": "89a963d4121efed998d95d065e104bc5d89a10167b1026146a37e40e0c87220e"
+  },
+  "wan22_opsd_bounded_causal_attention": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_opsd_bounded_causal_attention.py",
+    "sha256": "3d6b3954e0ec8ebd176d923dadf3334641ce5abebdaf71e4abc3910c878b6564"
+  },
+  "wan22_causal_attention": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_causal_attention.py",
+    "sha256": "a2ff06183d98f871e312aed471271b46d4212b581a252e7fd7e866c2143a855d"
+  },
+  "wan22_dense6_long477": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_long477.py",
+    "sha256": "6090cf681da43479ea6c859f6e10da889bc7d5133cc2476f6663b58a9ec3bab3"
+  },
+  "wan22_ar_self_forcing": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_ar_self_forcing.py",
+    "sha256": "654e7cea89e1094994fea732684ead2f4e09b9c37dfbfdb21721a27a85e338fd"
+  },
+  "wan22_ar_teacher_forcing": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_ar_teacher_forcing.py",
+    "sha256": "4442cdb5134bb5058b2a2d90368beea7a141024268c550c4bcfcc7cf05520270"
+  },
+  "wan22_dense6_dispersion": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_dispersion.py",
+    "sha256": "bc12fe662713a75d954e5859c71243ac42d2f6407de8fec026585ecad4208973"
+  },
+  "train_wan22_dense6_dispersion_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_dense6_dispersion_ddp.py",
+    "sha256": "8c6c768eae28abb7caa99a87ffc9c3d3d7a383567895a13c62272655e2dc3f17"
+  },
+  "wan22_dense6_task_sampler": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_task_sampler.py",
+    "sha256": "ee51419539caf24c9fafff9adddb9fc92c1343ea95e35504b83b84e95beddc31"
+  },
+  "wan22_dense6_checkpoint": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_dense6_checkpoint.py",
+    "sha256": "3b284750b2ed14894c09e073e13f529954e356a127f02360aacc6091f4b8f53d"
+  },
+  "train_wan22_dense6_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_dense6_ddp.py",
+    "sha256": "dfd56a160f29a230ca966b19ba9ad14a8fb74578b34c96221b0dba231087c3cd"
+  },
+  "train_wan22_sparse_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_sparse_ddp.py",
+    "sha256": "484dc231ae98333030669700bad04d8429d1c838c8cf4a5c70cca3cdec5e3d2e"
+  },
+  "wan22_sparse_task_router": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/wan22_sparse_task_router.py",
+    "sha256": "7d304a129e7e4e5c21c833cdb4352e199e49b308faaf957b96cacabf0831190d"
+  },
+  "train_wan22_dense6_long477_opsd_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_dense6_long477_opsd_ddp.py",
+    "sha256": "30144457f613669174b9dbc494443fa18b6688ac58ff83230291caa90b1c62bf"
+  },
+  "train_wan22_dense6_long477_ddp": {
+    "source": "/Users/wjm/Documents/dense_sparse_backup_20261021/code/DiffSynth-Studio/examples/wanvideo/model_training/dense_lora/train_wan22_dense6_long477_ddp.py",
+    "sha256": "02b8673ac0ac3fc79b7d81531cf9f0015e0950648e69913be861ed5d2c42adc6"
+  },
+  "pixvid_detailer_v12.py": {
+    "source": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code/pixvid_detailer_v12.py",
+    "sha256": "fc73cf80cdbde0ae1ca1b0a4ed6703cfadef6fc39fd42aa05f2227751d7ab08b",
+    "role": "source snapshot; standalone imports may require original experiment"
+  },
+  "modalities_v13.py": {
+    "source": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code/modalities_v13.py",
+    "sha256": "3cae31bc86778162c571e2f725ec9720687b08adb5cb637f5e4edf7e05db0e14",
+    "role": "source snapshot; standalone imports may require original experiment"
+  },
+  "train_modalities_v13.py": {
+    "source": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code/train_modalities_v13.py",
+    "sha256": "0868711357decc8004946fe11a5320ab07d98e330c5ae4e3ebcd99e1836c283b",
+    "role": "source snapshot; standalone imports may require original experiment"
+  },
+  "train_pixvid_v12.py": {
+    "source": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code/train_pixvid_v12.py",
+    "sha256": "54ed3d2619898d9ba985be05f8cc3a56681cda36f6846bb81c32901902e109f0",
+    "role": "source snapshot; standalone imports may require original experiment"
+  },
+  "benchmark_decode_v14.py": {
+    "source": "/Users/wjm/Documents/ChatGPT/live_dp/artifacts/pixvid_decode_probe_20261122/code/benchmark_decode_v14.py",
+    "sha256": "aa81773b2bfe5729991f7961c1bdcb98c1a6973910ef45f446e62c42bb6cc9c7",
+    "role": "source snapshot; standalone imports may require original experiment"
+  }
+}

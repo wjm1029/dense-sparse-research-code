@@ -1,0 +1,119 @@
+{
+  "step": 30000,
+  "validation": {
+    "detailer": {
+      "mae": 0.04281209162279461,
+      "rmse": 0.0905474148355843,
+      "gradient_mae": 0.021401465884043593,
+      "temporal_delta_error": 0.03319103469381506,
+      "angle_mean_deg": 5.024381661682986,
+      "angle_rmse_deg": 9.523205673560668,
+      "angle_below_11_25": 0.8963306581036429,
+      "angle_below_22_5": 0.961064625188206,
+      "angle_below_30": 0.9768218009659414,
+      "valid_pixels": 32348125.723595507,
+      "valid_norm_error": 0.017545267640288627,
+      "patch_seam32": -0.8124567569822957,
+      "patch_border_gradient_mae": 0.021070640512187495,
+      "gt_edge_region_mae": 0.12089403912927328
+    },
+    "official_vae": {
+      "mae": 0.04653837230014667,
+      "rmse": 0.09593544180473584,
+      "gradient_mae": 0.024916768076128505,
+      "temporal_delta_error": 0.03797610440092643,
+      "angle_mean_deg": 5.248903990327642,
+      "angle_rmse_deg": 9.844281266244609,
+      "angle_below_11_25": 0.8951899192306433,
+      "angle_below_22_5": 0.9605386342895165,
+      "angle_below_30": 0.976080004954606,
+      "valid_pixels": 32348125.723595507,
+      "valid_norm_error": 0.023533958797290755,
+      "patch_seam32": 0.11523918910056691,
+      "patch_border_gradient_mae": 0.02525104463435291,
+      "gt_edge_region_mae": 0.1304771167341243
+    }
+  },
+  "test": {
+    "detailer": {
+      "mae": 0.045555226093518,
+      "rmse": 0.10715557766125207,
+      "gradient_mae": 0.023932840081916495,
+      "temporal_delta_error": 0.03929961811664125,
+      "angle_mean_deg": 5.358909522398768,
+      "angle_rmse_deg": 11.34911062256799,
+      "angle_below_11_25": 0.8730078530665922,
+      "angle_below_22_5": 0.9444457794956848,
+      "angle_below_30": 0.9643024936350035,
+      "valid_pixels": 32348117.683651805,
+      "valid_norm_error": 0.020505209407925353,
+      "patch_seam32": -1.204503808460565,
+      "patch_border_gradient_mae": 0.023858930142457952,
+      "gt_edge_region_mae": 0.14330473926606452
+    },
+    "official_vae": {
+      "mae": 0.051105334200044095,
+      "rmse": 0.11400321086437586,
+      "gradient_mae": 0.02854607659817185,
+      "temporal_delta_error": 0.045251857857130894,
+      "angle_mean_deg": 5.760171484289149,
+      "angle_rmse_deg": 11.75361531555273,
+      "angle_below_11_25": 0.8707901543113077,
+      "angle_below_22_5": 0.9432713286891864,
+      "angle_below_30": 0.9633102281584608,
+      "valid_pixels": 32348117.683651805,
+      "valid_norm_error": 0.02770476587385635,
+      "patch_seam32": 0.11141825794134885,
+      "patch_border_gradient_mae": 0.02928795651661236,
+      "gt_edge_region_mae": 0.15516737456217947
+    }
+  },
+  "request": {
+    "stage": "head warmup; frozen Dense6 native DiT",
+    "task": "normal",
+    "steps": 30000,
+    "world_size": 2,
+    "train_clips": 4696,
+    "validation_clips": 445,
+    "test_clips": 471,
+    "architecture": "SiLU -> causal3x1x1 3072->3072 -> five (ConvTranspose1x2x2 + causal3x3x3 + SiLU) -> causal3x1x1 task-specific output",
+    "output_channels": 3,
+    "normal_transform": [
+      "x",
+      "-y",
+      "-z"
+    ],
+    "widths": [
+      1024,
+      512,
+      256,
+      128,
+      64
+    ],
+    "parameters": 81414595,
+    "temporal_adaptation": "Native token0 maps frame0; token1..20 each maps4raw frames, with learned phase embedding before causal detailer",
+    "input": "Existing BF16 last-layer features after native fixed-t=0 head normalization/modulation; not raw pre-head s+e_t",
+    "differences_from_paper": [
+      "Frozen backbone during warmup",
+      "Native RGB VAE encoder and latent AR history retained",
+      "Temporal expansion for native compressed tokens",
+      "Matte1 channel replicated for LPIPS; normal3 signed channels with flipYZ",
+      "Boundary-inclusive192x192 cores with up to32px halo; matte50percent foreground-centered crops",
+      "Deterministic t=0 MSE, no flow/noise reweighting",
+      "Five levels for spatial patch32; widths adapted to D3072"
+    ],
+    "loss": "pixel MSE +0.2 temporal Charbonnier(delta=0.001) +0.2 VGG LPIPS on4frames",
+    "optimizer": "AdamW lr1e-4 beta0.9/0.95 wd0 clip1 EMA0.999; constant LR as paper",
+    "sampling": "2 GPUs x4 crops/update; each crop8targetframes plus up to14contextframes,256x256->192x192 core; boundary-inclusive supervision; four-case CPU bank, refresh1 per2steps perGPU; disjoint exhaustive rank partitions",
+    "precision": "BF16 conv autocast, FP32 final scalar output/loss/master weights",
+    "evaluation": "16 validation clips every2000; full445 validation/full471 test at fixed final step, no test checkpoint selection",
+    "manifest_sha256": "d7a2ca221b7d502a9c67c0ff4a4d16af1a2b8588b6ded1a5121ffd3123a3b1ba",
+    "code_sha256": {
+      "train_modalities_v13.py": "0868711357decc8004946fe11a5320ab07d98e330c5ae4e3ebcd99e1836c283b",
+      "modalities_v13.py": "3cae31bc86778162c571e2f725ec9720687b08adb5cb637f5e4edf7e05db0e14",
+      "pixvid_detailer_v12.py": "fc73cf80cdbde0ae1ca1b0a4ed6703cfadef6fc39fd42aa05f2227751d7ab08b",
+      "prepare_normal_v13.py": "37b00fc24988e35875aaf6ed336ebf070e1b3b7c7dc1a8f329a4b7cd69c164fd"
+    }
+  },
+  "time": 1795464603.3334486
+}

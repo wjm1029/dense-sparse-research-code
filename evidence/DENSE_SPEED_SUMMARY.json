@@ -1,0 +1,191 @@
+{
+  "method": "A80080GB;81frames480x832;batch1;BF16;two validation clips;per route 14 decoder timings and6 pipeline timings after warmups;within-task alternating paired routes on same GPU;wall-clock medians",
+  "pipeline_scope": "GPU RGB tensor -> official RGB VAE encoder -> native OPSD5250 predicted-history rollout -> output decoder; no IO/model loading/H2D/D2H/video writing; not streaming first-frame latency",
+  "excluded_run": "GPU4 initial run excluded entirely because external process appeared",
+  "benchmark_sha256": "aa81773b2bfe5729991f7961c1bdcb98c1a6973910ef45f446e62c42bb6cc9c7",
+  "tasks": {
+    "depth": {
+      "physical_gpu": "5",
+      "native_parity": {
+        "feature_max_abs": 0.0,
+        "latent_max_abs": 0.0
+      },
+      "decoder": {
+        "official_vae": {
+          "n": 14,
+          "median_ms": 4835.124729201198,
+          "min_ms": 4822.536829859018,
+          "max_ms": 4847.723141312599,
+          "p90_ms": 4837.853625044227,
+          "effective_fps": 16.752411682538305,
+          "median_gpu_ms": 4835.0888671875,
+          "max_incremental_peak_gib": 7.615868091583252
+        },
+        "detailer": {
+          "n": 14,
+          "median_ms": 323.7022068351507,
+          "min_ms": 322.623897343874,
+          "max_ms": 324.2684118449688,
+          "p90_ms": 324.11821372807026,
+          "effective_fps": 250.22999006383122,
+          "median_gpu_ms": 323.6587677001953,
+          "max_incremental_peak_gib": 3.1798672676086426
+        },
+        "speedup": 14.93695324623951
+      },
+      "pipeline": {
+        "official_vae": {
+          "n": 6,
+          "median_ms": 7359.569115564227,
+          "min_ms": 7354.820255190134,
+          "max_ms": 7364.116903394461,
+          "p90_ms": 7362.174304202199,
+          "effective_fps": 11.006079123395809,
+          "median_gpu_ms": 7359.5498046875,
+          "max_incremental_peak_gib": 7.625663757324219
+        },
+        "detailer": {
+          "n": 6,
+          "median_ms": 2852.2120844572783,
+          "min_ms": 2844.2888483405113,
+          "max_ms": 2866.5675707161427,
+          "p90_ms": 2862.408133223653,
+          "effective_fps": 28.399010172279233,
+          "median_gpu_ms": 2852.1766357421875,
+          "max_incremental_peak_gib": 3.2828712463378906
+        },
+        "speedup": 2.5803021997098834
+      },
+      "occupancy": {
+        "timing_interval_samples": 35,
+        "max_concurrent_processes": 1,
+        "host_pids": [
+          "2042819"
+        ],
+        "note": "External198MiB context present during initial CPU model loading, exited before benchmark GPU process started; no overlap during warmup or timing"
+      }
+    },
+    "matte": {
+      "physical_gpu": "6",
+      "native_parity": {
+        "feature_max_abs": 0.0,
+        "latent_max_abs": 0.0
+      },
+      "decoder": {
+        "official_vae": {
+          "n": 14,
+          "median_ms": 4853.296414017677,
+          "min_ms": 4827.710565179586,
+          "max_ms": 4872.98384308815,
+          "p90_ms": 4865.135058015585,
+          "effective_fps": 16.68968739804339,
+          "median_gpu_ms": 4853.235107421875,
+          "max_incremental_peak_gib": 7.615868091583252
+        },
+        "detailer": {
+          "n": 14,
+          "median_ms": 326.98635570704937,
+          "min_ms": 324.97360184788704,
+          "max_ms": 327.5506980717182,
+          "p90_ms": 327.44120098650455,
+          "effective_fps": 247.71675816519019,
+          "median_gpu_ms": 326.937744140625,
+          "max_incremental_peak_gib": 3.1798672676086426
+        },
+        "speedup": 14.842504371545699
+      },
+      "pipeline": {
+        "official_vae": {
+          "n": 6,
+          "median_ms": 7365.599965676665,
+          "min_ms": 7359.018888324499,
+          "max_ms": 7375.314328819513,
+          "p90_ms": 7373.397821560502,
+          "effective_fps": 10.997067499926146,
+          "median_gpu_ms": 7365.552001953125,
+          "max_incremental_peak_gib": 7.625663757324219
+        },
+        "detailer": {
+          "n": 6,
+          "median_ms": 2838.3132312446833,
+          "min_ms": 2834.3699127435684,
+          "max_ms": 2848.3685962855816,
+          "p90_ms": 2845.4657029360533,
+          "effective_fps": 28.538076456233526,
+          "median_gpu_ms": 2838.2684326171875,
+          "max_incremental_peak_gib": 3.2828712463378906
+        },
+        "speedup": 2.595062406993972
+      },
+      "occupancy": {
+        "timing_interval_samples": 35,
+        "max_concurrent_processes": 1,
+        "host_pids": [
+          "2042821"
+        ],
+        "note": "External198MiB context present during initial CPU model loading, exited before benchmark GPU process started; no overlap during warmup or timing"
+      }
+    },
+    "normal": {
+      "physical_gpu": "7",
+      "native_parity": {
+        "feature_max_abs": 0.0,
+        "latent_max_abs": 0.0
+      },
+      "decoder": {
+        "official_vae": {
+          "n": 14,
+          "median_ms": 4819.593237712979,
+          "min_ms": 4807.057768106461,
+          "max_ms": 4834.623079746962,
+          "p90_ms": 4824.027241393924,
+          "effective_fps": 16.806397553673342,
+          "median_gpu_ms": 4819.567138671875,
+          "max_incremental_peak_gib": 7.615868091583252
+        },
+        "detailer": {
+          "n": 14,
+          "median_ms": 325.71902871131897,
+          "min_ms": 324.58319142460823,
+          "max_ms": 326.1590078473091,
+          "p90_ms": 326.0410074144602,
+          "effective_fps": 248.6805892811051,
+          "median_gpu_ms": 325.6781005859375,
+          "max_incremental_peak_gib": 3.4159374237060547
+        },
+        "speedup": 14.796781314193742
+      },
+      "pipeline": {
+        "official_vae": {
+          "n": 6,
+          "median_ms": 7343.018226325512,
+          "min_ms": 7333.9175544679165,
+          "max_ms": 7348.708003759384,
+          "p90_ms": 7346.829639747739,
+          "effective_fps": 11.030886415289869,
+          "median_gpu_ms": 7343.007568359375,
+          "max_incremental_peak_gib": 7.625663757324219
+        },
+        "detailer": {
+          "n": 6,
+          "median_ms": 2852.7401089668274,
+          "min_ms": 2842.155374586582,
+          "max_ms": 2865.1254512369633,
+          "p90_ms": 2861.1752092838287,
+          "effective_fps": 28.39375369154663,
+          "median_gpu_ms": 2852.701171875,
+          "max_incremental_peak_gib": 3.5189414024353027
+        },
+        "speedup": 2.574022850257089
+      },
+      "occupancy": {
+        "timing_interval_samples": 35,
+        "max_concurrent_processes": 1,
+        "host_pids": [
+          "2042823"
+        ],
+        "note": "External198MiB context present during initial CPU model loading, exited before benchmark GPU process started; no overlap during warmup or timing"
+      }
+    }
+  }
+}

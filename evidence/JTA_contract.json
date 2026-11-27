@@ -1,0 +1,68 @@
+{
+  "schema": "jta_native_tiles_v1",
+  "source_size": [
+    1920,
+    1080
+  ],
+  "tile_size": [
+    832,
+    480
+  ],
+  "tile_origins": [
+    [
+      0,
+      0
+    ],
+    [
+      544,
+      0
+    ],
+    [
+      1088,
+      0
+    ],
+    [
+      0,
+      300
+    ],
+    [
+      544,
+      300
+    ],
+    [
+      1088,
+      300
+    ],
+    [
+      0,
+      600
+    ],
+    [
+      544,
+      600
+    ],
+    [
+      1088,
+      600
+    ]
+  ],
+  "resize": false,
+  "frames": 81,
+  "frame_stride": 1,
+  "fps": 30,
+  "joints": 22,
+  "target": "all people with >=1 visible, in-crop joint in a frame",
+  "visibility": "not occluded AND not self_occluded",
+  "presence": "observable in this frame; not physical existence behind opaque occluders",
+  "xy": "(source_pixel - tile_origin) / [832,480]; never clamp",
+  "xyz": "camera meters, relative to midpoint of right/left hip (16,19)",
+  "root_camera": "absolute midpoint of hips, stored separately in meters",
+  "intrinsic": "fx=fy=1158; cx=960-x0; cy=540-y0",
+  "masks": "in_crop/visible/valid_3d retained separately; no loss for out-of-crop joints",
+  "split": "official source-sequence split, before windows and tiles",
+  "person_identity": "(official split, sequence, person_id); clip slot is NOT person_id",
+  "inference": "all nine fixed tiles, without GT filtering; merge duplicate poses in original pixels",
+  "empty_tiles": "retained in index for negative sampling; positives cannot be inferred from GT at inference",
+  "fully_hidden": "not a positive detection target; original rows preserved in source",
+  "overflow": "fail if clip track count exceeds model capacity; never truncate people"
+}

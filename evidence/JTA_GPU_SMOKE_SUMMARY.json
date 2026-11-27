@@ -1,0 +1,47 @@
+{
+  "scope": "Functional smoke only; no trained accuracy/generalization claim",
+  "cache": {
+    "records": 4,
+    "splits": {
+      "train": 3,
+      "val": 1,
+      "test": 0
+    },
+    "actual_rgb_vae_encoding": true
+  },
+  "training": {
+    "backbone": "full official Wan2.2 TI2V 5B with new LoRA/router/head",
+    "optimizer_steps": 2,
+    "tasks": [
+      0,
+      1
+    ],
+    "train_id": "train_seq_85_f0244_t0",
+    "scope": "one seven-track train crop, two updates; not converged",
+    "paired_state_written": true,
+    "validation": "same training crop"
+  },
+  "resume": {
+    "adapter_optimizer_scheduler_rng_loaded": true,
+    "saved_step": 2,
+    "additional_optimizer_steps": 0,
+    "note": "Full-model state reload smoke; bitwise optimizer continuation is separately tested on a CPU toy module."
+  },
+  "inference": {
+    "frames": 81,
+    "tiles": 9,
+    "resize": false,
+    "task": "3d",
+    "presence_threshold": 0.99,
+    "gt_used": false,
+    "output_json_written": true,
+    "raw_predictions_written": true,
+    "renderer_tested": false,
+    "note": "High threshold selected for an untrained debug checkpoint; no detection-quality claim."
+  },
+  "paths": {
+    "cache": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/experiments/jta_research_code_smoke_20261127/cache_v2",
+    "trainer": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/experiments/jta_research_code_smoke_20261127/train_smoke",
+    "inference": "/xs-train-nas/LingXiTeam/workspace/msh/my_code/video_dense/experiments/jta_research_code_smoke_20261127/infer_smoke"
+  }
+}
